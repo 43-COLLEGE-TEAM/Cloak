@@ -6,7 +6,7 @@
 
 **面向企业全员的 AI 工作平台，让组织的智力资产越用越厚**
 
-[![版本](https://img.shields.io/badge/版本-0.1.1-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases)
+[![版本](https://img.shields.io/badge/版本-0.1.3-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.3)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -22,7 +22,7 @@
 
 43 CLOAK 让企业的 AI 投入对管理者**管得住、用得对、留得下**，让 AI 对员工越用越懂业务、越懂岗位、越懂这家公司，适用于各行业、各规模企业的全员 AI 协作场景。
 
-> 当前发布的桌面客户端为 43 CLOAK 的个人使用入口，企业工作区功能正在持续建设中。
+> 当前发布的桌面客户端已支持个人空间与企业空间，既可以作为个人 AI 工作入口，也可以接入企业团队协作场景。
 > 本项目早期工作参考借鉴了 [TOKENICODE](https://github.com/yiliqi78/TOKENICODE) 进行迭代开发，在此致谢原作者（@小七姐，@Tiny）。
 > Cloak 为闭源软件，仅提供安装包。
 
@@ -30,22 +30,28 @@
 
 - 💬 **多个对话同时进行** — 可以同时开好几个话题，互不干扰，随时切换
 - 📁 **直接处理文件** — 把文件拖进对话窗口，让 AI 帮你读、帮你总结、帮你分析
+- 🏢 **个人空间 / 企业空间** — 个人资料与企业知识分开管理，团队协作边界更清晰
+- 🪪 **飞书账号登录** — 企业成员可使用飞书账号登录，减少额外账号配置
+- 🛠️ **管理后台** — 管理后台正在开发中，部分空间与成员管理能力已经可用
 - 🤖 **选择不同的 AI 模型** — 根据需要，自由选择反应更快或能力更强的模型
 - 🎨 **个性化界面** — 亮色、暗色随意切，还有多种配色可选
+- 🧩 **工作搭子虚拟宠物** — 在工作过程中提供更轻量、更有陪伴感的交互体验
+- 💌 **问题反馈** — 设置中可以直接提交使用问题与改进建议
 - 🌐 **中英文支持** — 界面语言可以随时切换
 
 ---
 
 ## 下载
 
-> 当前版本：**v0.1.1**
+> 当前版本：**0.1.3**  
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.3)
 
 | 系统 | 下载 |
 |------|------|
-| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.1/Cloak_0.1.1_x64-setup.exe) |
-| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.1/Cloak_0.1.1_aarch64.dmg) |
-| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.1/Cloak_0.1.1_x64.dmg) |
-| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.1/Cloak_0.1.1_amd64.AppImage) |
+| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_x64-setup.exe) |
+| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_aarch64.dmg) |
+| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_x64.dmg) |
+| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点左上角苹果图标 → **关于本机**，看「芯片」那一行。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -77,9 +83,9 @@
 - **macOS**：打开下载的文件，把 Cloak 图标拖到「应用程序」文件夹
 - **Linux**：右键下载的文件 → 属性 → 勾选「允许作为程序执行」，然后双击打开
 
-### 第二步：填入你的 API Key
+### 第二步：登录与配置
 
-第一次打开 Cloak，点左下角的**设置**图标，找到「服务商」，选择你使用的平台，把 API Key 粘贴进去保存。
+第一次打开 Cloak，可以使用飞书账号登录；如果你使用个人空间，也可以点左下角的**设置**图标，找到「服务商」，选择你使用的平台，把 API Key 粘贴进去保存。
 
 Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 
@@ -109,6 +115,13 @@ Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 
 ## 更新记录
 
+### v0.1.3
+- 支持飞书账号登录，方便企业成员直接进入工作空间
+- 增加企业空间，明确划分企业空间与个人空间
+- 增加管理后台，部分空间与成员管理功能已经可用
+- 设置中增加问题反馈功能，使用中遇到问题可以更方便地提交
+- 新增工作搭子虚拟宠物，让日常 AI 协作更有陪伴感
+
 ### v0.1.1
 - 修复了左侧菜单有时展开收起不正常的问题
 - 修复了后台偶尔占用内存过高的问题
@@ -126,12 +139,14 @@ Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 
 ## 未来计划
 
-### 企业 / 团队功能
+### 43hub
 
-- **飞书账号登录** — 企业用户通过飞书一键登录，无需单独配置 API Key
-- **团队配额管理** — Token 用量由管理员统一分配，个人无需关心计费
-- **工作空间** — 按项目或团队划分独立的文件与对话空间，互不干扰
-- **审计与合规** — 每次调用精确绑定至具体员工与业务产出，管理员可查看操作日志，满足企业合规要求
+- **skill 商城** — 提供适合不同业务场景的 skill 发现与安装入口
+
+### 管理后台
+
+- **企业技能沉淀** — 将企业内部流程、经验与工具封装成可复用的工作能力
+- **技能分发与治理** — 支持企业按团队、岗位或项目分发 skill，并持续维护版本
 
 ### 平台扩展
 
@@ -142,9 +157,11 @@ Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 
 ## 遇到问题？
 
-用着有什么不对劲，或者有想要的新功能，欢迎告诉我们：
+用着有什么不对劲，或者有想要的新功能，可以在应用内直接反馈：
 
-👉 [去这里反馈](https://github.com/43-COLLEGE-TEAM/Cloak/issues/new)
+打开左下角的**设置**，进入**反馈**页面，填写问题描述。你可以粘贴截图或选择文件，也可以留下邮箱、微信或飞书手机号，方便我们后续跟进。
+
+![设置中的反馈页面](docs/screenshots/feedback.png)
 
 说清楚你在做什么、出现了什么情况、用的是哪个系统，我们会尽快处理。
 
