@@ -48,12 +48,10 @@
 
 | 系统 | 下载 |
 |------|------|
-| 🪟 Windows | [EXE 安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64-setup.exe) / [MSI 安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64_en-US.msi) |
+| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64-setup.exe) |
 | 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_aarch64.dmg) |
 | 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64.dmg) |
-| 🐧 Linux AppImage | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_amd64.AppImage) |
-| 🐧 Linux DEB | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_amd64.deb) |
-| 🐧 Linux RPM | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak-0.1.5-1.x86_64.rpm) |
+| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点左上角苹果图标 → **关于本机**，看「芯片」那一行。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
