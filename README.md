@@ -6,7 +6,7 @@
 
 **面向企业全员的 AI 工作平台，让组织的智力资产越用越厚**
 
-[![版本](https://img.shields.io/badge/版本-0.1.3-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.3)
+[![版本](https://img.shields.io/badge/版本-0.1.5-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.5)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -34,8 +34,8 @@
 - 🪪 **飞书账号登录** — 企业成员可使用飞书账号登录，减少额外账号配置
 - 🛠️ **管理后台** — 管理后台正在开发中，部分空间与成员管理能力已经可用
 - 🤖 **选择不同的 AI 模型** — 根据需要，自由选择反应更快或能力更强的模型
-- 🎨 **个性化界面** — 亮色、暗色随意切，还有多种配色可选
-- 🧩 **工作搭子虚拟宠物** — 在工作过程中提供更轻量、更有陪伴感的交互体验
+- 🎨 **个性化界面** — 亮色、暗色随意切，还有多种配色与个人项目卡片皮肤可选
+- 🧩 **工作搭子虚拟宠物** — 支持尺寸调节、转头宠物与自定义皮肤管理
 - 💌 **问题反馈** — 设置中可以直接提交使用问题与改进建议
 - 🌐 **中英文支持** — 界面语言可以随时切换
 
@@ -43,15 +43,17 @@
 
 ## 下载
 
-> 当前版本：**0.1.3**  
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.3)
+> 当前版本：**0.1.5**  
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.5)
 
 | 系统 | 下载 |
 |------|------|
-| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_x64-setup.exe) |
-| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_aarch64.dmg) |
-| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_x64.dmg) |
-| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.3/Cloak_0.1.3_amd64.AppImage) |
+| 🪟 Windows | [EXE 安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64-setup.exe) / [MSI 安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64_en-US.msi) |
+| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_aarch64.dmg) |
+| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64.dmg) |
+| 🐧 Linux AppImage | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_amd64.AppImage) |
+| 🐧 Linux DEB | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_amd64.deb) |
+| 🐧 Linux RPM | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak-0.1.5-1.x86_64.rpm) |
 
 不知道自己的 Mac 是哪种芯片？点左上角苹果图标 → **关于本机**，看「芯片」那一行。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -114,6 +116,18 @@ Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 ---
 
 ## 更新记录
+
+### v0.1.5
+- 修复个人项目上传的自定义背景图会保存到应用数据目录，并通过本地文件资源地址加载，避免打包后引用失效
+- 修复自定义背景图清理逻辑兼容新的本地文件引用格式，减少无效文件残留
+- 优化企业云端工作区文件展示，改为可展开的树形结构，文件夹层级更直观
+- 新增云端文件搜索，可在已加载的目录中快速定位文件和文件夹
+- 云端文件行内展示大小、缓存、冲突和下载状态，打开文件时反馈更明确
+
+### v0.1.4
+- 个人项目支持卡片换肤
+- 桌面宠物增加尺寸调节与转头宠物
+- 宠物资源与自定义皮肤管理更完善
 
 ### v0.1.3
 - 支持飞书账号登录，方便企业成员直接进入工作空间
