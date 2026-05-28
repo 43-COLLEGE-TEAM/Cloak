@@ -6,7 +6,7 @@
 
 **面向企业全员的 AI 工作平台，让组织的智力资产越用越厚**
 
-[![版本](https://img.shields.io/badge/版本-0.1.5-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.5)
+[![版本](https://img.shields.io/badge/版本-0.1.6-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.6)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -43,15 +43,15 @@
 
 ## 下载
 
-> 当前版本：**0.1.5**  
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.5)
+> 当前版本：**0.1.6**
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.6)
 
 | 系统 | 下载 |
 |------|------|
-| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64-setup.exe) |
-| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_aarch64.dmg) |
-| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_x64.dmg) |
-| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.5/Cloak_0.1.5_amd64.AppImage) |
+| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_x64-setup.exe) |
+| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_aarch64.dmg) |
+| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_x64.dmg) |
+| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点左上角苹果图标 → **关于本机**，看「芯片」那一行。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -114,6 +114,12 @@ Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 ---
 
 ## 更新记录
+
+### v0.1.6
+- 优化企业工作区体验，支持更自然地使用团队资料进行对话
+- 优化云端文件使用与工作区状态展示
+- 优化账号配置同步与基础组件更新体验
+- 修复若干已知问题，提升整体稳定性
 
 ### v0.1.5
 - 修复个人项目上传的自定义背景图会保存到应用数据目录，并通过本地文件资源地址加载，避免打包后引用失效
