@@ -10,6 +10,10 @@
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
+如需开通企业版、咨询部署配置，或反馈使用建议，可以扫码联系 CLOAK 团队。
+
+<img src="docs/contact-wecom.png" alt="微信扫码联系 CLOAK 团队" width="180" />
+
 </div>
 
 ---
