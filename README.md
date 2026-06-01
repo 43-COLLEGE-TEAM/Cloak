@@ -6,7 +6,7 @@
 
 **面向企业全员的 AI 工作平台，让组织的智力资产越用越厚**
 
-[![版本](https://img.shields.io/badge/版本-0.1.6-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.6)
+[![版本](https://img.shields.io/badge/版本-0.1.9-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.9)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -38,8 +38,11 @@
 - 🪪 **飞书账号登录** — 企业成员可使用飞书账号登录，减少额外账号配置
 - 🛠️ **管理后台** — 管理后台正在开发中，部分空间与成员管理能力已经可用
 - 🤖 **选择不同的 AI 模型** — 根据需要，自由选择反应更快或能力更强的模型
+- 🔑 **服务商快速配置** — 内置常用服务商预设，减少 API Key、模型和地址配置成本
+- 🚀 **初次配置引导** — 首次打开时引导完成服务商选择、工作区创建和基础上手
 - 🎨 **个性化界面** — 亮色、暗色随意切，还有多种配色与个人项目卡片皮肤可选
-- 🧩 **工作搭子虚拟宠物** — 支持尺寸调节、转头宠物与自定义皮肤管理
+- 🧩 **工作搭子虚拟宠物** — 独立宠物设置页，支持云端资源下载缓存、尺寸调节与转头互动
+- ☁️ **云端动态资源** — 新手引导与宠物资源可从云端更新，减少安装包内置资源限制
 - 💌 **问题反馈** — 设置中可以直接提交使用问题与改进建议
 - 🌐 **中英文支持** — 界面语言可以随时切换
 
@@ -47,15 +50,16 @@
 
 ## 下载
 
-> 当前版本：**0.1.6**
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.6)
+> 当前版本：**0.1.9**
+>
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.9)
 
 | 系统 | 下载 |
 |------|------|
-| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_x64-setup.exe) |
-| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_aarch64.dmg) |
-| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_x64.dmg) |
-| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.6/Cloak_0.1.6_amd64.AppImage) |
+| 🪟 Windows | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.9/Cloak_0.1.9_x64-setup.exe) |
+| 🍎 macOS（M 系列芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.9/Cloak_0.1.9_aarch64.dmg) |
+| 🍎 macOS（Intel 芯片）| [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.9/Cloak_0.1.9_x64.dmg) |
+| 🐧 Linux | [点击下载](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.9/Cloak_0.1.9_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点左上角苹果图标 → **关于本机**，看「芯片」那一行。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -99,20 +103,20 @@ Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 
 | 服务商 | 获取 API Key |
 |--------|-------------|
+| 小米 MiMo Token Plan | [前往获取](https://platform.xiaomimimo.com/#/console/plan-manage) |
+| 小米 MiMo | [前往获取](https://platform.xiaomimimo.com/) |
 | Anthropic（官方 Claude） | [前往获取](https://console.anthropic.com/account/keys) |
 | 智谱 GLM | [前往获取](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) |
 | Kimi | [前往获取](https://platform.moonshot.cn/console/api-keys) |
 | Kimi Code | [前往获取](https://www.kimi.com/code/console) |
 | MiniMax | [前往获取](https://platform.minimaxi.com/user-center/basic-information/interface-key) |
 | 通义千问 | [前往获取](https://bailian.console.aliyun.com/?apiKey=1) |
-| OpenRouter | [前往获取](https://openrouter.ai/settings/keys) |
-| 小米 MiMo | [前往获取](https://platform.xiaomimimo.com/) |
 
 如果你已经有了 Key，直接粘贴进去就能用，不需要重新注册。
 
 ### 第三步：开始对话
 
-点左上角的**新建对话**，在底部输入框里写下你想问的问题或想做的事，按回车发送，等 Claude 回复就行了。
+点左上角的**新建对话**，在底部输入框里写下你想问的问题或想做的事，按回车发送，等 AI 回复就行了。
 
 **几个小技巧：**
 - 有文件想让 AI 看？直接拖进对话框
@@ -123,43 +127,22 @@ Cloak 内置了以下服务商，选好后点对应链接去注册获取 Key：
 
 ## 更新记录
 
-### v0.1.6
-- 优化企业工作区体验，支持更自然地使用团队资料进行对话
-- 优化云端文件使用与工作区状态展示
-- 优化账号配置同步与基础组件更新体验
-- 修复若干已知问题，提升整体稳定性
+这里只展示最近几次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
-### v0.1.5
-- 修复个人项目上传的自定义背景图会保存到应用数据目录，并通过本地文件资源地址加载，避免打包后引用失效
-- 修复自定义背景图清理逻辑兼容新的本地文件引用格式，减少无效文件残留
-- 优化企业云端工作区文件展示，改为可展开的树形结构，文件夹层级更直观
-- 新增云端文件搜索，可在已加载的目录中快速定位文件和文件夹
-- 云端文件行内展示大小、缓存、冲突和下载状态，打开文件时反馈更明确
+### v0.1.9
+- 更新工作搭子宠物逻辑，优化宠物资源层级、拖动和展示稳定性
+- 调整服务商预设顺序，优化 API 服务商选择和配置体验
+- 修复 macOS 下新手引导音乐无法暂停的问题
 
-### v0.1.4
-- 个人项目支持卡片换肤
-- 桌面宠物增加尺寸调节与转头宠物
-- 宠物资源与自定义皮肤管理更完善
+### v0.1.8
+- 新增初次配置引导，帮助首次使用者完成服务商选择、工作区创建和基础上手
+- 支持从云端加载新手引导资源，并加入引导语音和背景音乐
+- 优化新手引导动画、文案和项目创建选择
 
-### v0.1.3
-- 支持飞书账号登录，方便企业成员直接进入工作空间
-- 增加企业空间，明确划分企业空间与个人空间
-- 增加管理后台，部分空间与成员管理功能已经可用
-- 设置中增加问题反馈功能，使用中遇到问题可以更方便地提交
-- 新增工作搭子虚拟宠物，让日常 AI 协作更有陪伴感
-
-### v0.1.1
-- 修复了左侧菜单有时展开收起不正常的问题
-- 修复了后台偶尔占用内存过高的问题
-- 更新了应用图标
-
-### v0.1.0
-- 🎉 首次发布
-- 支持多个对话同时进行
-- 内置文件浏览器，支持拖拽附件
-- 支持切换不同 Claude 模型
-- 亮色 / 暗色主题
-- 中英文界面切换
+### v0.1.7
+- 将工作搭子宠物拆分为独立设置页，接入云端宠物资源
+- 新增宠物资源下载缓存，降低重复加载成本
+- 简化 API 服务商配置流程
 
 ---
 
@@ -387,7 +370,9 @@ A：不确定的按钮先不要点，尤其是删除、覆盖、上传、允许�
 
 如需开通企业版、咨询部署配置，或反馈使用建议，可以使用微信扫码联系 CLOAK 团队。
 
-![微信扫码联系 CLOAK 团队](docs/contact-wecom.png)
+<div align="center">
+  <img src="docs/contact-wecom.png" alt="微信扫码联系 CLOAK 团队" width="220" />
+</div>
 
 ---
 
