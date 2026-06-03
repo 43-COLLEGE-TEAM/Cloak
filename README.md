@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.11-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.11)
+[![版本](https://img.shields.io/badge/版本-0.1.12-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.12)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -156,20 +156,23 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作和�
 
 ## 下载
 
-> 当前版本：**0.1.11**
+> 当前版本：**0.1.12**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.11)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.12)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.11/Cloak_0.1.11_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.11/Cloak_0.1.11_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.11/Cloak_0.1.11_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.11/Cloak_0.1.11_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_x64-setup.exe) |
+| Windows（备用安装包） | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_x64_en-US.msi) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_amd64.AppImage) |
+| Linux（Debian / Ubuntu） | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_amd64.deb) |
+| Linux（Fedora / RHEL） | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak-0.1.12-1.x86_64.rpm) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
-Linux 用户请使用通用版。
+Linux 用户不确定发行版时，请优先使用通用版 AppImage。
 
 > **Windows 用户：** 如果应用提示缺少基础组件，请按应用提示安装；也可以先安装 [Git for Windows](https://git-scm.com/download/win)，安装时保持默认选项即可。
 
@@ -187,7 +190,7 @@ Linux 用户请使用通用版。
 
 - **Windows**：双击下载好的安装文件，按提示完成安装。
 - **macOS**：打开下载的文件，把 Cloak 图标拖到“应用程序”文件夹。
-- **Linux**：优先使用通用版；如果是 AppImage，右键文件进入属性，允许作为程序执行后打开。
+- **Linux**：不确定发行版时优先使用通用版；Debian / Ubuntu、Fedora / RHEL 用户也可以选择对应安装包。
 
 ### 2. 选择使用路径
 
@@ -232,6 +235,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.12**
+
+- 新增微信接入预览，扫码后可以在微信里继续当前工作区的对话，也可以切换工作区、会话和发送文件。
+- 新增 Claude 登录管理，支持在设置里查看登录状态，并选择订阅账号或 Console/API 方式登录。
+- 优化 Zen 模式语音配置，只需要填写语音服务 API Key，并修复拖拽图片后预览不显示的问题。
+
 **v0.1.11**
 
 - 新增 Zen模式，适合在更安静的界面里整理问题、查看文件和进行语音输入。
@@ -243,12 +252,6 @@ Linux 用户请使用通用版。
 - 优化左侧工作区和项目列表，展开、切换和新建项目更稳定。
 - 新增更多项目皮肤，并改善项目卡片尺寸和视觉表现。
 - 服务商和模型列表可从云端更新，新增或调整模型时不必重新安装客户端。
-
-**v0.1.9**
-
-- 优化工作搭子宠物的资源加载、拖动和展示稳定性。
-- 调整服务商预设顺序，模型服务配置更容易上手。
-- 修复 macOS 下新手引导音乐无法暂停的问题。
 
 ---
 
@@ -284,7 +287,7 @@ A：Windows 选 Windows。Mac 查看“关于本机”的芯片信息：
 
 - **M1 / M2 / M3 / M4**：选 M 系列
 - **Intel**：选 Intel
-- **Linux**：不确定时先选通用版
+- **Linux**：不确定时先选通用版；Debian / Ubuntu、Fedora / RHEL 用户也可以选择对应安装包
 
 **Q：Windows 打开后提示缺少基础组件怎么办？**
 
