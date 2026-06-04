@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.12-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.12)
+[![版本](https://img.shields.io/badge/版本-0.1.13-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.13)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -157,16 +157,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.12**
+> 当前版本：**0.1.13**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.12)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.13)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.12/Cloak_0.1.12_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -239,6 +239,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.13**
+
+- 优化 Zen 模式体验，新增专注音乐和更自然的语音状态反馈，窄屏下文件控制也更紧凑。
+- 企业工作区支持背景图和一键同步，云端文件变更后的本地缓存状态更清晰。
+- 新增任务完成和文件生成音效，并修复会话换行、聊天横向滚动和 thinking 状态异常等问题。
+
 **v0.1.12**
 
 - 新增微信接入预览，扫码后可以在微信里继续当前工作区的对话，也可以切换工作区、会话和发送文件。
@@ -250,12 +256,6 @@ Linux 用户请使用通用版。
 - 新增 Zen模式，适合在更安静的界面里整理问题、查看文件和进行语音输入。
 - 支持多组织登录，企业成员在不同组织之间切换更方便。
 - 优化对话未读标记、模型切换和宠物显示，减少使用中的打断感。
-
-**v0.1.10**
-
-- 优化左侧工作区和项目列表，展开、切换和新建项目更稳定。
-- 新增更多项目皮肤，并改善项目卡片尺寸和视觉表现。
-- 服务商和模型列表可从云端更新，新增或调整模型时不必重新安装客户端。
 
 ---
 
