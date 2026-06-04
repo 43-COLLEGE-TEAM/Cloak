@@ -1,0 +1,222 @@
+name: 发布安装包到七牛
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish-qiniu:
+    name: 上传正式版本到七牛
+    if: github.event.release.prerelease == false
+    runs-on: ubuntu-22.04
+    environment: PUBLIC_IDENTITY
+    permissions:
+      contents: write
+    env:
+      TAG_NAME: ${{ github.event.release.tag_name }}
+      RELEASE_ID: ${{ github.event.release.id }}
+      QINIU_ACCESS_KEY: ${{ secrets.QINIU_ACCESS_KEY }}
+      QINIU_SECRET_KEY: ${{ secrets.QINIU_SECRET_KEY }}
+      QINIU_BUCKET: 43video
+      QINIU_DOMAIN: https://qn.oss.43consult.com
+      QINIU_RELEASE_PREFIX: cloak/release
+      QINIU_STABLE_PREFIX: cloak/stable
+    steps:
+      - name: 检查七牛配置
+        shell: bash
+        run: |
+          for name in QINIU_ACCESS_KEY QINIU_SECRET_KEY; do
+            if [ -z "${!name}" ]; then
+              echo "::error title=缺少七牛配置::请在 GitHub Secrets 中配置 $name"
+              exit 1
+            fi
+          done
+
+      - name: 安装 qshell
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api repos/qiniu/qshell/releases/latest > qshell-release.json
+          download_url="$(node - <<'NODE'
+          const fs = require('fs');
+          const release = JSON.parse(fs.readFileSync('qshell-release.json', 'utf8'));
+          const asset = release.assets.find((item) =>
+            /linux.*amd64.*\.tar\.gz$/i.test(item.name)
+          );
+          if (!asset) {
+            throw new Error('未找到 qshell linux amd64 tar.gz 发布包');
+          }
+          console.log(asset.browser_download_url);
+          NODE
+          )"
+
+          curl -fsSL "$download_url" -o qshell.tar.gz
+          mkdir -p qshell-bin
+          tar -xzf qshell.tar.gz -C qshell-bin
+          qshell_path="$(find qshell-bin -type f -name 'qshell*' | head -n 1)"
+          if [ -z "$qshell_path" ]; then
+            echo "未在 qshell 发布包中找到可执行文件" >&2
+            exit 1
+          fi
+          chmod +x "$qshell_path"
+          sudo mv "$qshell_path" /usr/local/bin/qshell
+          qshell -v
+
+      - name: 下载当前 Release 产物
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p qiniu-release-assets
+
+          gh api "repos/$GITHUB_REPOSITORY/releases/$RELEASE_ID" > release.json
+
+          node - <<'NODE' > release-assets.tsv
+          const fs = require('fs');
+          const release = JSON.parse(fs.readFileSync('release.json', 'utf8'));
+          for (const asset of release.assets || []) {
+            if (!asset.id || !asset.name) continue;
+            console.log(`${asset.id}\t${asset.name}`);
+          }
+          NODE
+
+          while IFS=$'\t' read -r asset_id asset_name; do
+            [ -n "$asset_id" ] || continue
+            gh api "repos/$GITHUB_REPOSITORY/releases/assets/$asset_id" \
+              -H "Accept: application/octet-stream" \
+              > "qiniu-release-assets/$asset_name"
+          done < release-assets.tsv
+
+          node - <<'NODE'
+          const fs = require('fs');
+          const assets = fs.readdirSync('qiniu-release-assets').filter((name) => !name.startsWith('.'));
+          if (!assets.includes('latest.json')) {
+            throw new Error('当前 Release 缺少 latest.json，不能更新正式 updater 源');
+          }
+          const installAssets = assets.filter((name) => name !== 'latest.json' && !name.endsWith('.sig'));
+          if (installAssets.length === 0) {
+            throw new Error('当前 Release 没有安装包资产');
+          }
+          JSON.parse(fs.readFileSync('qiniu-release-assets/latest.json', 'utf8'));
+          NODE
+
+      - name: 重写 latest.json 为七牛下载地址
+        shell: bash
+        run: |
+          mkdir -p qiniu-latest
+          node - <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+
+          const latestPath = path.join('qiniu-release-assets', 'latest.json');
+          const latest = JSON.parse(fs.readFileSync(latestPath, 'utf8'));
+          const release = JSON.parse(fs.readFileSync('release.json', 'utf8'));
+          const tag = process.env.TAG_NAME;
+          const domain = (process.env.QINIU_DOMAIN || 'https://qn.oss.43consult.com').replace(/\/+$/, '');
+          const releasePrefix = (process.env.QINIU_RELEASE_PREFIX || 'cloak/release')
+            .replace(/^\/+/, '')
+            .replace(/\/+$/, '');
+
+          if (!latest.platforms || Object.keys(latest.platforms).length === 0) {
+            throw new Error('latest.json 中没有 platforms');
+          }
+
+          const assets = release.assets || [];
+          const assetNameByUrl = new Map();
+          const assetNameByTail = new Map();
+          const assetNames = new Set();
+
+          for (const asset of assets) {
+            if (!asset.name) continue;
+            assetNames.add(asset.name);
+            for (const url of [asset.url, asset.browser_download_url]) {
+              if (!url) continue;
+              assetNameByUrl.set(url, asset.name);
+              try {
+                const parsed = new URL(url);
+                const tail = parsed.pathname.split('/').filter(Boolean).pop();
+                if (tail) assetNameByTail.set(decodeURIComponent(tail), asset.name);
+              } catch {
+                // Ignore non-URL values.
+              }
+            }
+          }
+
+          const encodePathPart = (value) => encodeURIComponent(value).replace(/%2F/g, '/');
+
+          for (const [platform, info] of Object.entries(latest.platforms)) {
+            let filename = assetNameByUrl.get(info.url);
+            if (!filename) {
+              try {
+                const parsed = new URL(info.url);
+                const tail = parsed.pathname.split('/').filter(Boolean).pop();
+                const decodedTail = tail ? decodeURIComponent(tail) : '';
+                filename = assetNameByTail.get(decodedTail) || (assetNames.has(decodedTail) ? decodedTail : '');
+              } catch {
+                // handled below
+              }
+            }
+
+            if (!filename || filename === 'latest.json') {
+              throw new Error(`无法为 ${platform} 匹配 GitHub Release 资产文件名: ${info.url}`);
+            }
+
+            info.url = `${domain}/${releasePrefix}/${encodePathPart(tag)}/${encodePathPart(filename)}`;
+          }
+
+          fs.writeFileSync(path.join('qiniu-latest', 'latest.json'), JSON.stringify(latest, null, 2) + '\n');
+          console.log(JSON.stringify(latest, null, 2));
+          NODE
+
+      - name: 上传正式版本到七牛
+        shell: bash
+        run: |
+          qshell account "$QINIU_ACCESS_KEY" "$QINIU_SECRET_KEY" cloak-github-actions
+
+          qshell qupload2 \
+            --src-dir=qiniu-release-assets \
+            --bucket="$QINIU_BUCKET" \
+            --key-prefix="$QINIU_RELEASE_PREFIX/$TAG_NAME/" \
+            --overwrite \
+            --thread-count=5
+
+          qshell fput --overwrite "$QINIU_BUCKET" "$QINIU_RELEASE_PREFIX/$TAG_NAME/latest.json" qiniu-latest/latest.json
+          qshell fput --overwrite "$QINIU_BUCKET" "$QINIU_RELEASE_PREFIX/latest.json" qiniu-latest/latest.json
+          qshell fput --overwrite "$QINIU_BUCKET" "$QINIU_STABLE_PREFIX/latest.json" qiniu-latest/latest.json
+
+      - name: 刷新七牛 CDN 缓存
+        shell: bash
+        run: |
+          node - <<'NODE' > qiniu-refresh-urls.txt
+          const fs = require('fs');
+          const domain = (process.env.QINIU_DOMAIN || 'https://qn.oss.43consult.com').replace(/\/+$/, '');
+          const tag = process.env.TAG_NAME;
+          const releasePrefix = process.env.QINIU_RELEASE_PREFIX || 'cloak/release';
+          const stablePrefix = process.env.QINIU_STABLE_PREFIX || 'cloak/stable';
+          const encodeKey = (key) => key.split('/').map(encodeURIComponent).join('/');
+          const urls = new Set([
+            `${domain}/${encodeKey(`${releasePrefix}/latest.json`)}`,
+            `${domain}/${encodeKey(`${releasePrefix}/${tag}/latest.json`)}`,
+            `${domain}/${encodeKey(`${stablePrefix}/latest.json`)}`,
+          ]);
+
+          for (const name of fs.readdirSync('qiniu-release-assets')) {
+            if (name.startsWith('.')) continue;
+            urls.add(`${domain}/${encodeKey(`${releasePrefix}/${tag}/${name}`)}`);
+          }
+
+          for (const url of urls) console.log(url);
+          NODE
+
+          cat qiniu-refresh-urls.txt
+          qshell cdnrefresh -i qiniu-refresh-urls.txt
+
+      - name: 回写七牛版 latest.json 到当前 Release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "$TAG_NAME" qiniu-latest/latest.json \
+            --repo "$GITHUB_REPOSITORY" \
+            --clobber
