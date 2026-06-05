@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.13-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.13)
+[![版本](https://img.shields.io/badge/版本-0.1.14-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.14)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -127,6 +127,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 💬 **微信接入预览**：扫码接入后，可以在微信里继续当前工作区的对话，查看当前会话、切换工作区、切换最近会话、新建会话和查找文件。
 - 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤和工作区背景，让不同成员按自己的习惯使用。
 - 🧩 **工作搭子**：支持桌面工作搭子、尺寸调节、资源缓存和显示管理，让 AI 工作台更有陪伴感和品牌识别。
+- ⬆️ **应用更新提醒**：客户端会检查当前版本是否仍可继续使用；需要更新时会提示下载并重启完成更新。
 - 💌 **问题反馈**：在**设置 → 反馈**提交问题描述、截图、文件和联系方式。
 
 ---
@@ -157,16 +158,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.13**
+> 当前版本：**0.1.14**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.13)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.14)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.13/Cloak_0.1.13_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.14/Cloak_0.1.14_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.14/Cloak_0.1.14_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.14/Cloak_0.1.14_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.14/Cloak_0.1.14_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -239,6 +240,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.14**
+
+- 新增应用版本支持检查，遇到必须升级的版本时会提示下载并重启完成更新。
+- 修复部分 Markdown 内容包含图片时可能显示或解析异常的问题。
+- 优化安装包更新和发布流程，让后续版本分发更稳定。
+
 **v0.1.13**
 
 - 优化 Zen 模式体验，新增专注音乐和更自然的语音状态反馈，窄屏下文件控制也更紧凑。
@@ -250,12 +257,6 @@ Linux 用户请使用通用版。
 - 新增微信接入预览，扫码后可以在微信里继续当前工作区的对话，也可以切换工作区、会话和发送文件。
 - 新增 Claude 登录管理，支持在设置里查看登录状态，并选择订阅账号或 Console/API 方式登录。
 - 优化 Zen 模式语音配置，只需要填写语音服务 API Key，并修复拖拽图片后预览不显示的问题。
-
-**v0.1.11**
-
-- 新增 Zen模式，适合在更安静的界面里整理问题、查看文件和进行语音输入。
-- 支持多组织登录，企业成员在不同组织之间切换更方便。
-- 优化对话未读标记、模型切换和宠物显示，减少使用中的打断感。
 
 ---
 
