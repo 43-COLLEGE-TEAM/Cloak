@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.15-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.15)
+[![版本](https://img.shields.io/badge/版本-0.1.16-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.16)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -32,7 +32,7 @@ Cloak 把企业知识、团队文件、模型服务和日常任务接入同一�
 - **统一管理**：组织权限、成员分组、模型配置、资源使用情况和审计记录集中到后台。
 - **统一交付**：成员直接使用组织配置好的 AI 能力，不需要各自维护 API Key。
 
-对个人用户，Cloak 也可以作为本地项目和日常对话的 AI 助手，围绕文件夹资料持续完成阅读、总结、改写、分析和计划整理。你也可以在新版设置中心里管理模型环境、Claude 登录、Zen 模式语音、扩展能力，或把当前工作区接入微信，在手机上继续跟进对话和文件。
+对个人用户，Cloak 也可以作为本地项目和日常对话的 AI 助手，围绕文件夹资料持续完成阅读、总结、改写、分析和计划整理。你也可以在完整的设置页面里管理模型环境、Claude 登录、Zen 模式语音、扩展能力，或把当前工作区接入微信，在手机上继续跟进对话和文件。
 
 当前桌面客户端已支持**个人工作区**与**企业工作区**。企业工作区、云端文件、组织权限和后台管理等能力，均由 **CLOAK 团队协助组织开通和配置**。
 
@@ -123,9 +123,9 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片会在发送前显示预览。
 - 🗂️ **本地文件管理**：在**文件**面板搜索、预览、打开文件，也可以把文件插入对话继续提问。
 - 🎙️ **Zen模式与语音**：用更安静的界面整理问题、查看文件和进行语音输入；配置语音服务后，也可以体验 AI 语音播报。
-- 🤖 **模型选择与 Claude 登录**：根据任务需要选择模型；个人用户可以在**设置 → 模型与环境**里完成常用模型配置，也可以在配置详情中查看 Claude 登录状态并选择适合自己的登录方式。
+- 🤖 **模型选择与 Claude 登录**：根据任务需要选择模型；个人用户可以在**设置 → 模型与环境**里完成常用模型配置，也可以在配置详情中查看 Claude 登录状态并选择适合自己的登录方式。新版模型列表已支持 `claude-fable-5`。
 - 💬 **微信接入预览**：扫码接入后，可以在微信里继续当前工作区的对话，查看当前会话、切换工作区、切换最近会话、新建会话和查找文件。
-- 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，让常用工作流更容易扩展。
+- 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息，让常用工作流更容易扩展。
 - 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤和工作区背景，让不同成员按自己的习惯使用。
 - 🧩 **工作搭子**：支持桌面工作搭子、尺寸调节、资源缓存和显示管理，让 AI 工作台更有陪伴感和品牌识别。
 - ⬆️ **应用更新提醒**：客户端会检查当前版本是否仍可继续使用；需要更新时会提示下载并重启完成更新。
@@ -159,16 +159,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.15**
+> 当前版本：**0.1.16**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.15)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.16)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.15/Cloak_0.1.15_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.15/Cloak_0.1.15_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.15/Cloak_0.1.15_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.15/Cloak_0.1.15_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.16/Cloak_0.1.16_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.16/Cloak_0.1.16_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.16/Cloak_0.1.16_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.16/Cloak_0.1.16_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -241,6 +241,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.16**
+
+- 主界面和设置页视觉更新，信息层级、面板留白和主题细节更统一。
+- 设置中心改为完整页面，模型、微信、存储、反馈和高级扩展等入口更容易集中管理。
+- 新增 `claude-fable-5` 模型，并在 Skills 中显示作者信息。
+
 **v0.1.15**
 
 - 重组设置中心，把常用模型环境、微信、存储、配置详情和高级扩展放到更清晰的入口。
@@ -253,11 +259,6 @@ Linux 用户请使用通用版。
 - 修复部分 Markdown 内容包含图片时可能显示或解析异常的问题。
 - 优化安装包更新和发布流程，让后续版本分发更稳定。
 
-**v0.1.13**
-
-- 优化 Zen 模式体验，新增专注音乐和更自然的语音状态反馈，窄屏下文件控制也更紧凑。
-- 企业工作区支持背景图和一键同步，云端文件变更后的本地缓存状态更清晰。
-- 新增任务完成和文件生成音效，并修复会话换行、聊天横向滚动和 thinking 状态异常等问题。
 
 ---
 
