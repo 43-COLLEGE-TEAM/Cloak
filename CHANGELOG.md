@@ -2,6 +2,15 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.21
+
+发布日期：2026-06-17
+
+- 新增 `/goal` 指令，可在对话中设置或清除 Claude Code 的目标。
+- 问题确认卡片会保留已回答或跳过的状态，回看历史会话时更容易理解上下文。
+- 优化 API 鉴权失败和模型重试提示，Key 或登录失效时会更快停止无效重试并给出明确反馈。
+- 优化模型服务配置的隔离处理，减少本地 Claude Code 配置对 Cloak 模型调用的影响。
+
 ## v0.1.20
 
 发布日期：2026-06-16

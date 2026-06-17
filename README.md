@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.20-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.20)
+[![版本](https://img.shields.io/badge/版本-0.1.21-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.21)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -161,16 +161,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.20**
+> 当前版本：**0.1.21**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.20)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.21)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.21/Cloak_0.1.21_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.21/Cloak_0.1.21_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.21/Cloak_0.1.21_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.21/Cloak_0.1.21_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -243,6 +243,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.21**
+
+- 新增 `/goal` 指令，可在对话中设置或清除 Claude Code 的目标。
+- 问题确认卡片会保留已回答或跳过的状态，回看历史会话时更容易理解上下文。
+- 优化 API 鉴权失败和模型重试提示，Key 或登录失效时会更快停止无效重试并给出明确反馈。
+
 **v0.1.20**
 
 - 优化模型服务商配置流程，新增 API 会先确认再启用，并支持自定义 API 端点。
@@ -254,12 +260,6 @@ Linux 用户请使用通用版。
 - 新增任务中心、产物通知和全局会话草稿，持续处理任务和切换会话时更顺手。
 - 云端工作区封面和工作搭子资源支持更多管理操作，企业空间的视觉配置更灵活。
 - 优化新手引导、工作区展开和托盘关闭提示等细节。
-
-**v0.1.18**
-
-- 新增定时任务中心，可集中安排需要稍后处理的任务。
-- 新增文件产物通知，生成结果后更容易及时发现和打开。
-- 切换会话时保留临时草稿，并优化 macOS Dock 唤起和关闭到托盘体验。
 
 ---
 
