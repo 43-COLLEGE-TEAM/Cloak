@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.19-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.19)
+[![版本](https://img.shields.io/badge/版本-0.1.20-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.20)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -123,7 +123,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片会在发送前显示预览。
 - 🗂️ **本地文件管理**：在**文件**面板搜索、预览、打开文件，也可以把文件插入对话继续提问。
 - 🎙️ **Zen模式与语音**：用更安静的界面整理问题、查看文件和进行语音输入；配置语音服务后，也可以体验 AI 语音播报。
-- 🤖 **模型选择与 Claude 登录**：根据任务需要选择模型；企业工作区可使用组织统一配置的模型，个人用户可以在**设置 → 模型与环境**里完成常用模型配置，也可以在配置详情中查看 Claude 登录状态并选择适合自己的登录方式。模型不可用时，Cloak 会提示重试或切换备用模型。
+- 🤖 **模型选择与 Claude 登录**：根据任务需要选择模型；企业工作区可使用组织统一配置的模型，个人用户可以在**设置 → 模型与环境**里选择服务商、填写 API Key，或使用自定义 API 端点，也可以在配置详情中查看 Claude 登录状态并选择适合自己的登录方式。模型不可用时，Cloak 会提示重试或切换备用模型。
 - 💬 **微信接入预览**：扫码接入后，可以在微信里继续当前工作区的对话，查看当前会话、切换工作区、切换最近会话、新建会话和查找文件。
 - 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息；组织发放兑换码后，也可以按兑换码解锁可用技能。
 - 📌 **任务中心**：集中查看和安排需要稍后处理的任务，支持按时间规划提醒，让持续性的工作更容易回到上下文。
@@ -161,16 +161,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.19**
+> 当前版本：**0.1.20**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.19)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.20)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.19/Cloak_0.1.19_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.19/Cloak_0.1.19_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.19/Cloak_0.1.19_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.19/Cloak_0.1.19_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.20/Cloak_0.1.20_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -208,7 +208,7 @@ Linux 用户请使用通用版。
 
 **个人用户**
 
-打开左下角**设置**，进入**模型与环境**，选择服务商并填写 **API Key**。已有可用 API Key 时，直接粘贴保存即可。
+打开左下角**设置**，进入**模型与环境**，选择服务商并填写 **API Key**。已有可用 API Key 时，直接粘贴保存即可；如果使用自建或兼容 OpenAI/Anthropic 的服务，也可以选择**自定义配置**并填写 API 端点。
 
 如果你使用 Claude，也可以在**设置 → 配置详情**里查看 Claude 登录状态，并选择订阅账号登录或 Console/API 登录。
 
@@ -243,6 +243,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.20**
+
+- 优化模型服务商配置流程，新增 API 会先确认再启用，并支持自定义 API 端点。
+- Claude Code 安装和更新改为通过 Cloak 云端依赖源获取，配置过程更稳定。
+- 优化新手引导、设置提示和 Skills 下载失败反馈。
+
 **v0.1.19**
 
 - 新增任务中心、产物通知和全局会话草稿，持续处理任务和切换会话时更顺手。
@@ -254,13 +260,6 @@ Linux 用户请使用通用版。
 - 新增定时任务中心，可集中安排需要稍后处理的任务。
 - 新增文件产物通知，生成结果后更容易及时发现和打开。
 - 切换会话时保留临时草稿，并优化 macOS Dock 唤起和关闭到托盘体验。
-
-**v0.1.17**
-
-- 企业工作区支持使用组织统一配置的模型，成员不需要单独维护模型服务。
-- 模型暂不可用时，会提示重试当前模型或切换到备用模型后重发。
-- 优化 CLI 更新进度、模型切换和个人工作区移除等体验。
-
 
 ---
 
