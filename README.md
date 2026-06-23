@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.22-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.22)
+[![版本](https://img.shields.io/badge/版本-0.1.23-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.23)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -163,16 +163,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.22**
+> 当前版本：**0.1.23**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.22)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.23)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.22/Cloak_0.1.22_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.22/Cloak_0.1.22_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.22/Cloak_0.1.22_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.22/Cloak_0.1.22_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -245,6 +245,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.23**
+
+- Zen 模式语音输入更稳定，识别文字会进入输入框，方便继续编辑后再发送。
+- 优化 Skills Hub 的展示、下载和安装缓存清理，技能安装失败后更容易恢复。
+- 修复项目指令读取、文件拖拽、模型配置保存和 Windows 工作区重复显示等问题。
+
 **v0.1.22**
 
 - 新增企业群聊协作能力，企业工作区可以围绕同一主题组织多智能体讨论和审阅。
@@ -256,12 +262,6 @@ Linux 用户请使用通用版。
 - 新增 `/goal` 指令，可在对话中设置或清除 Claude Code 的目标。
 - 问题确认卡片会保留已回答或跳过的状态，回看历史会话时更容易理解上下文。
 - 优化 API 鉴权失败和模型重试提示，Key 或登录失效时会更快停止无效重试并给出明确反馈。
-
-**v0.1.20**
-
-- 优化模型服务商配置流程，新增 API 会先确认再启用，并支持自定义 API 端点。
-- Claude Code 安装和更新改为通过 Cloak 云端依赖源获取，配置过程更稳定。
-- 优化新手引导、设置提示和 Skills 下载失败反馈。
 
 ---
 
