@@ -6,7 +6,7 @@
 
 **面向个人与企业团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.23-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.23)
+[![版本](https://img.shields.io/badge/版本-0.1.24-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.24)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -163,16 +163,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.23**
+> 当前版本：**0.1.24**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.23)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.24)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.23/Cloak_0.1.23_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.24/Cloak_0.1.24_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.24/Cloak_0.1.24_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.24/Cloak_0.1.24_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.24/Cloak_0.1.24_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -245,6 +245,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.24**
+
+- Zen 模式语音识别新增腾讯云 ASR 选项，团队可以按已有语音服务配置选择更合适的识别通道。
+- 语音配置页会分别校验文字转语音和语音识别所需凭据，保存前的提示更明确。
+- 优化 macOS 安装包背景和发布元数据，安装与自动更新分发更稳定。
+
 **v0.1.23**
 
 - Zen 模式语音输入更稳定，识别文字会进入输入框，方便继续编辑后再发送。
@@ -256,12 +262,6 @@ Linux 用户请使用通用版。
 - 新增企业群聊协作能力，企业工作区可以围绕同一主题组织多智能体讨论和审阅。
 - 云端工作区文件树会展示本地新增、修改和冲突状态，并支持按权限上传本地文件或文件夹。
 - 优化群聊会话稳定性、用量统计、会话菜单位置和云端文件名显示。
-
-**v0.1.21**
-
-- 新增 `/goal` 指令，可在对话中设置或清除 Claude Code 的目标。
-- 问题确认卡片会保留已回答或跳过的状态，回看历史会话时更容易理解上下文。
-- 优化 API 鉴权失败和模型重试提示，Key 或登录失效时会更快停止无效重试并给出明确反馈。
 
 ---
 
