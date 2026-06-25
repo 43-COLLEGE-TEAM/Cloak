@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.25
+
+发布日期：2026-06-24
+
+- Skills Hub 新增一组组织发放兑换码，按兑换码开放技能库访问的场景更灵活。
+
 ## v0.1.24
 
 发布日期：2026-06-23
