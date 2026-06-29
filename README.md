@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.26-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.26)
+[![版本](https://img.shields.io/badge/版本-0.1.29-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.29)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -120,7 +120,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 个人工作区和团队工作区都可以使用这些通用能力；团队版会在此基础上增加**组织、权限、模型、资源使用和后台管理**。
 
-- 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续。
+- 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续；代码内容默认换行显示，阅读长代码更轻松。
 - 👥 **团队群聊协作**：团队工作区支持多人/多智能体协作场景，可以围绕同一主题进入群聊房间，发起讨论和审阅。
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片会在发送前显示预览。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以把文件插入对话继续提问；团队云端工作区会展示本地新增、修改和冲突状态，并支持按权限上传本地文件。
@@ -163,16 +163,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.26**
+> 当前版本：**0.1.29**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.26)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.29)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.26/Cloak_0.1.26_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.26/Cloak_0.1.26_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.26/Cloak_0.1.26_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.26/Cloak_0.1.26_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -245,21 +245,21 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
-**v0.1.26**
+**v0.1.29**
 
-- 新增个人手机号验证码登录和注册，个人用户进入 Cloak 更直接。
-- 团队工作区支持企业邀请码和组织切换，加入、切换团队更清晰。
-- 优化团队群聊房间、会话顺序和暂停后内容恢复，协作对话更稳定。
+- 聊天中的代码块默认换行，并可按需要切换，阅读长代码更顺手。
+- 团队群聊房间按工作区区分并优化默认行为，跨项目协作更稳定。
+- 云端配置同步会保留本地模型服务商设置，减少团队和个人配置互相影响。
 
-**v0.1.25**
+**v0.1.28**
 
-- Skills Hub 新增一组组织发放兑换码，按兑换码开放技能库访问的场景更灵活。
+- 优化组织身份和技能访问凭据同步，团队成员使用组织发放的能力更顺畅。
 
-**v0.1.24**
+**v0.1.27**
 
-- Zen 模式语音识别新增腾讯云 ASR 选项，团队可以按已有语音服务配置选择更合适的识别通道。
-- 语音配置页会分别校验文字转语音和语音识别所需凭据，保存前的提示更明确。
-- 优化 macOS 安装包背景和发布元数据，安装与自动更新分发更稳定。
+- 对话中的图片和文件附件会显示更清晰的预览，发送前后确认内容更方便。
+- 优化新手引导、问题确认和会话恢复，异常中断后更容易回到正确上下文。
+- 工作搭子资源下载、删除和悬停体验更稳定。
 
 ---
 
