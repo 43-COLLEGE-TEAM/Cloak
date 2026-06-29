@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.29-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.29)
+[![版本](https://img.shields.io/badge/版本-0.1.30-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.30)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -74,7 +74,7 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 | 模块 | 团队版能解决什么 |
 |------|------------------|
 | 团队工作区与云端资料 | 把项目资料、流程文档、共享文件放到组织工作区，成员在授权范围内查看、搜索、下载和上传本地文件，并基于资料发起 AI 对话；更多文件操作按组织配置开放。 |
-| 账号登录与成员同步 | 成员可使用飞书账号进入团队工作区；个人用户也可使用手机号验证码登录或注册。组织成员、邮箱、部门等基础信息可从通讯录同步，减少重复维护。 |
+| 账号登录与成员同步 | 成员可使用飞书账号进入团队工作区；个人用户也可使用手机号验证码登录或注册，也可以在客户端里输入组织邀请码加入组织。组织成员、邮箱、部门等基础信息可从通讯录同步，减少重复维护。 |
 | 用户、分组、角色与资源配置 | 按成员、分组、角色和项目范围分配权限；为不同团队设置可用模型、访问范围和资源使用规则。 |
 | 模型统一管理 | 组织统一配置成员可用的模型范围；普通成员只看到自己被允许使用的模型；团队工作区会按组织配置加载模型。 |
 | 工作区权限与文件管理 | 围绕工作区管理成员、分组、文件变更记录和访问权限，适合项目资料库、部门知识库和外部协作场景。 |
@@ -133,6 +133,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤和工作区背景；云端工作区封面也可以使用组织提供的皮肤资源。
 - 🧩 **工作搭子**：支持桌面工作搭子、尺寸调节、资源缓存和显示管理；云端资源支持更多操作，让 AI 工作台更有陪伴感和品牌识别。
 - ⬆️ **应用更新提醒**：客户端会检查当前版本是否仍可继续使用；需要更新时会提示下载并重启完成更新。
+- 🪟 **窗口记忆**：Cloak 会记住主窗口大小，下次打开时更容易回到熟悉的工作界面。
 - 💌 **问题反馈**：在**设置 → 反馈**提交问题描述、截图、文件和联系方式。
 
 ---
@@ -163,16 +164,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.29**
+> 当前版本：**0.1.30**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.29)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.30)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.29/Cloak_0.1.29_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -203,6 +204,7 @@ Linux 用户请使用通用版。
 团队版由组织开通后使用：
 
 - **成员登录**：使用组织支持的账号方式进入团队工作区；个人用户也可以用手机号验证码登录或注册。
+- **加入组织**：拿到组织邀请码后，可以在客户端组织菜单里直接输入邀请码加入。
 - **资料与权限**：工作区资料、文件权限和资源使用规则由组织统一配置。
 - **模型服务**：成员使用组织开放的模型，不需要自行维护复杂配置。
 
@@ -245,6 +247,12 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.30**
+
+- 客户端会记住主窗口大小，下次打开时更容易回到熟悉的工作界面。
+- 组织菜单新增邀请码加入入口，成员加入团队更直接。
+- 优化问题诊断和云端配置同步，团队与个人偏好使用更稳定。
+
 **v0.1.29**
 
 - 聊天中的代码块默认换行，并可按需要切换，阅读长代码更顺手。
@@ -254,12 +262,6 @@ Linux 用户请使用通用版。
 **v0.1.28**
 
 - 优化组织身份和技能访问凭据同步，团队成员使用组织发放的能力更顺畅。
-
-**v0.1.27**
-
-- 对话中的图片和文件附件会显示更清晰的预览，发送前后确认内容更方便。
-- 优化新手引导、问题确认和会话恢复，异常中断后更容易回到正确上下文。
-- 工作搭子资源下载、删除和悬停体验更稳定。
 
 ---
 
