@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.30-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.30)
+[![版本](https://img.shields.io/badge/版本-0.1.31-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.31)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -164,16 +164,16 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 ## 下载
 
-> 当前版本：**0.1.30**
+> 当前版本：**0.1.31**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.30)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.31)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.30/Cloak_0.1.30_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -247,6 +247,11 @@ Linux 用户请使用通用版。
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.31**
+
+- 更新各平台安装包和自动更新清单，用户可以获取最新客户端。
+- 保持公开下载入口与云端发布源同步，安装和更新路径更一致。
+
 **v0.1.30**
 
 - 客户端会记住主窗口大小，下次打开时更容易回到熟悉的工作界面。
@@ -258,10 +263,6 @@ Linux 用户请使用通用版。
 - 聊天中的代码块默认换行，并可按需要切换，阅读长代码更顺手。
 - 团队群聊房间按工作区区分并优化默认行为，跨项目协作更稳定。
 - 云端配置同步会保留本地模型服务商设置，减少团队和个人配置互相影响。
-
-**v0.1.28**
-
-- 优化组织身份和技能访问凭据同步，团队成员使用组织发放的能力更顺畅。
 
 ---
 
