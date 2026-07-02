@@ -42,6 +42,87 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ---
 
+## 下载
+
+> 当前版本：**0.1.31**
+>
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.31)
+
+| 系统 | 下载 |
+|------|------|
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_amd64.AppImage) |
+
+不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
+
+Linux 用户请使用通用版。
+
+> **Windows 用户：** 如果应用提示缺少基础组件，请按应用提示安装；也可以先安装 [Git for Windows](https://git-scm.com/download/win)，安装时保持默认选项即可。
+
+<div align="center">
+  <strong>如需开通团队版或咨询部署，请扫码联系 CLOAK 团队。</strong>
+  <br />
+  <img src="docs/contact-wecom.png" alt="微信扫码联系 CLOAK 团队" width="180" />
+</div>
+
+---
+
+## 3 分钟上手
+
+### 1. 安装客户端
+
+- **Windows**：双击下载好的安装文件，按提示完成安装。
+- **macOS**：打开下载的文件，把 Cloak 图标拖到“应用程序”文件夹。
+- **Linux**：优先使用通用版；如果是 AppImage，右键文件进入属性，允许作为程序执行后打开。
+
+### 2. 选择使用路径
+
+**组织成员**
+
+团队版由组织开通后使用：
+
+- **成员登录**：使用组织支持的账号方式进入团队工作区；个人用户也可以用手机号验证码登录或注册。
+- **加入组织**：拿到组织邀请码后，可以在客户端组织菜单里直接输入邀请码加入。
+- **资料与权限**：工作区资料、文件权限和资源使用规则由组织统一配置。
+- **模型服务**：成员使用组织开放的模型，不需要自行维护复杂配置。
+
+希望开通团队版，可以扫码联系 CLOAK 团队。我们会协助确认**成员范围、工作区、模型和后台配置方式**。
+
+**个人用户**
+
+打开左下角**设置**，进入**模型与环境**，选择服务商并填写 **API Key**。已有可用 API Key 时，直接粘贴保存即可；如果使用自建或兼容 OpenAI/Anthropic 的服务，也可以选择**自定义配置**并填写 API 端点。
+
+如果你使用 Claude，也可以在**设置 → 配置详情**里查看 Claude 登录状态，并选择订阅账号登录或 Console/API 登录。
+
+| 服务商 | 获取 API Key |
+|--------|-------------|
+| 小米 MiMo Token Plan | [前往获取](https://platform.xiaomimimo.com/#/console/plan-manage) |
+| 小米 MiMo | [前往获取](https://platform.xiaomimimo.com/) |
+| Anthropic（官方 Claude） | [前往获取](https://console.anthropic.com/account/keys) |
+| 智谱 GLM | [前往获取](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) |
+| Kimi | [前往获取](https://platform.moonshot.cn/console/api-keys) |
+| Kimi Code | [前往获取](https://www.kimi.com/code/console) |
+| MiniMax | [前往获取](https://platform.minimaxi.com/user-center/basic-information/interface-key) |
+| 通义千问 | [前往获取](https://bailian.console.aliyun.com/?apiKey=1) |
+
+### 3. 开始对话
+
+开始使用只需要三步：
+
+1. 在欢迎界面点击**选择文件夹**，或进入团队工作区。
+2. 点击左上角**新建任务**。
+3. 在底部输入框写下你想完成的事，按回车发送。
+
+需要 AI 看文件时，把文件拖进对话框再提问。组织成员可以基于**团队资料和云端文件**发起对话。
+
+想在手机上跟进当前工作区，可以进入**设置 → 接入微信**生成二维码。扫码连接后，保持 Cloak 客户端运行，就可以在微信里继续对话、切换工作区或查找文件。
+
+想使用语音输入或语音播报，可以进入**设置 → 高级扩展**里的 Zen 模式配置，填写语音服务 API Key，保存后回到 Zen 模式使用。
+
+---
+
 ## 为什么团队需要 CLOAK 团队版
 
 当团队开始真正使用 AI，问题通常不在“有没有模型”，而在 **AI 能不能被组织稳定管理**。
@@ -159,87 +240,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 **设置**
 
 ![设置](docs/screenshots/settings.png)
-
----
-
-## 下载
-
-> 当前版本：**0.1.31**
->
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.31)
-
-| 系统 | 下载 |
-|------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.31/Cloak_0.1.31_amd64.AppImage) |
-
-不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
-
-Linux 用户请使用通用版。
-
-> **Windows 用户：** 如果应用提示缺少基础组件，请按应用提示安装；也可以先安装 [Git for Windows](https://git-scm.com/download/win)，安装时保持默认选项即可。
-
-<div align="center">
-  <strong>如需开通团队版或咨询部署，请扫码联系 CLOAK 团队。</strong>
-  <br />
-  <img src="docs/contact-wecom.png" alt="微信扫码联系 CLOAK 团队" width="180" />
-</div>
-
----
-
-## 3 分钟上手
-
-### 1. 安装客户端
-
-- **Windows**：双击下载好的安装文件，按提示完成安装。
-- **macOS**：打开下载的文件，把 Cloak 图标拖到“应用程序”文件夹。
-- **Linux**：优先使用通用版；如果是 AppImage，右键文件进入属性，允许作为程序执行后打开。
-
-### 2. 选择使用路径
-
-**组织成员**
-
-团队版由组织开通后使用：
-
-- **成员登录**：使用组织支持的账号方式进入团队工作区；个人用户也可以用手机号验证码登录或注册。
-- **加入组织**：拿到组织邀请码后，可以在客户端组织菜单里直接输入邀请码加入。
-- **资料与权限**：工作区资料、文件权限和资源使用规则由组织统一配置。
-- **模型服务**：成员使用组织开放的模型，不需要自行维护复杂配置。
-
-希望开通团队版，可以扫码联系 CLOAK 团队。我们会协助确认**成员范围、工作区、模型和后台配置方式**。
-
-**个人用户**
-
-打开左下角**设置**，进入**模型与环境**，选择服务商并填写 **API Key**。已有可用 API Key 时，直接粘贴保存即可；如果使用自建或兼容 OpenAI/Anthropic 的服务，也可以选择**自定义配置**并填写 API 端点。
-
-如果你使用 Claude，也可以在**设置 → 配置详情**里查看 Claude 登录状态，并选择订阅账号登录或 Console/API 登录。
-
-| 服务商 | 获取 API Key |
-|--------|-------------|
-| 小米 MiMo Token Plan | [前往获取](https://platform.xiaomimimo.com/#/console/plan-manage) |
-| 小米 MiMo | [前往获取](https://platform.xiaomimimo.com/) |
-| Anthropic（官方 Claude） | [前往获取](https://console.anthropic.com/account/keys) |
-| 智谱 GLM | [前往获取](https://bigmodel.cn/usercenter/proj-mgmt/apikeys) |
-| Kimi | [前往获取](https://platform.moonshot.cn/console/api-keys) |
-| Kimi Code | [前往获取](https://www.kimi.com/code/console) |
-| MiniMax | [前往获取](https://platform.minimaxi.com/user-center/basic-information/interface-key) |
-| 通义千问 | [前往获取](https://bailian.console.aliyun.com/?apiKey=1) |
-
-### 3. 开始对话
-
-开始使用只需要三步：
-
-1. 在欢迎界面点击**选择文件夹**，或进入团队工作区。
-2. 点击左上角**新建任务**。
-3. 在底部输入框写下你想完成的事，按回车发送。
-
-需要 AI 看文件时，把文件拖进对话框再提问。组织成员可以基于**团队资料和云端文件**发起对话。
-
-想在手机上跟进当前工作区，可以进入**设置 → 接入微信**生成二维码。扫码连接后，保持 Cloak 客户端运行，就可以在微信里继续对话、切换工作区或查找文件。
-
-想使用语音输入或语音播报，可以进入**设置 → 高级扩展**里的 Zen 模式配置，填写语音服务 API Key，保存后回到 Zen 模式使用。
 
 ---
 
