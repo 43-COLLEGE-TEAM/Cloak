@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.35-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.35)
+[![版本](https://img.shields.io/badge/版本-0.1.36-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.36)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.35**
+> 当前版本：**0.1.36**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.35)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.36)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.35/Cloak_0.1.35_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.35/Cloak_0.1.35_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.35/Cloak_0.1.35_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.35/Cloak_0.1.35_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.36/Cloak_0.1.36_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.36/Cloak_0.1.36_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.36/Cloak_0.1.36_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.36/Cloak_0.1.36_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -211,7 +211,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息；组织发放兑换码后，也可以按兑换码解锁可用技能。
 - 📌 **任务中心**：集中查看和安排需要稍后处理的任务；未登录时会先引导登录，避免任务上下文分散。
 - 📦 **产物与交付中心**：AI 生成或交付文件后，界面会提示新产物；团队工作区还可以集中查看云端交付内容，方便及时打开、定位和继续处理。
-- 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤和工作区背景；云端工作区封面也可以使用组织提供的皮肤资源。
+- 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤、工作区背景和任务完成提示音；云端工作区封面也可以使用组织提供的皮肤资源。
 - 🧩 **工作搭子**：支持桌面工作搭子、尺寸调节、资源缓存和显示管理；云端资源支持更多操作，让 AI 工作台更有陪伴感和品牌识别。
 - ⬆️ **应用更新提醒**：客户端会检查当前版本是否仍可继续使用；需要更新时会提示下载并重启完成更新。
 - 🪟 **窗口记忆**：Cloak 会记住主窗口大小，下次打开时更容易回到熟悉的工作界面。
@@ -247,6 +247,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.36**
+
+- 设置中新增完成提示音选择，可以从多种内置声音里挑选任务结束提醒。
+- 切换完成提示音时会立即试听，方便确认声音是否适合当前工作环境。
+- 声音提醒设置会随偏好保存，后续完成任务时按已选择的提示音播放。
+
 **v0.1.35**
 
 - 团队群聊连接和消息同步更稳定，进入房间、邀请成员和查看协作内容更顺畅。
@@ -260,12 +266,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 优化团队群聊成员同步、邀请恢复和会话展示，多人协作更稳定。
 - 改进云端登录状态、产物下载和通知连接，团队工作区使用更顺畅。
 - 优化桌面工作搭子尺寸调节、会话标题和列表排序，日常操作更稳定。
-
-**v0.1.33**
-
-- 切换会话时会保留草稿、附件和图片，继续编辑时不容易丢内容。
-- 图片链接预览和发送前确认更稳定。
-- 优化桌面工作搭子的拖动体验，并减少启动时的等待和卡顿。
 
 ---
 
