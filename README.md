@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.40-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.40)
+[![版本](https://img.shields.io/badge/版本-0.1.41-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.41)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -32,7 +32,7 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 - **统一管理**：组织权限、成员分组、模型配置、资源使用情况和审计记录集中到后台。
 - **统一交付**：成员直接使用组织配置好的 AI 能力，不需要各自维护 API Key。
 
-对个人用户，Cloak 也可以作为本地项目和日常对话的 AI 助手，围绕文件夹资料持续完成阅读、总结、改写、分析和计划整理。你也可以在完整的设置页面里管理模型环境、Claude 登录、Zen 模式语音、扩展能力，或把当前工作区接入微信，在手机上继续跟进对话和文件。
+对个人用户，Cloak 也可以作为本地项目和日常对话的 AI 助手，围绕文件夹资料持续完成阅读、总结、改写、分析和计划整理。你也可以在完整的设置页面里管理模型环境、Claude / Gemini / Codex Agent、Zen 模式语音、扩展能力，或把当前工作区接入微信，在手机上继续跟进对话和文件。
 
 当前桌面客户端已支持**个人工作区**与**团队工作区**。团队工作区、云端文件、组织权限和后台管理等能力，均由 **CLOAK 团队协助组织开通和配置**。
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.40**
+> 当前版本：**0.1.41**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.40)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.41)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.40/Cloak_0.1.40_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.40/Cloak_0.1.40_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.40/Cloak_0.1.40_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.40/Cloak_0.1.40_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -92,9 +92,9 @@ Linux 用户请使用通用版。
 
 **个人用户**
 
-打开左下角**设置**，进入**模型与环境**，选择服务商并填写 **API Key**。已有可用 API Key 时，直接粘贴保存即可；如果使用自建或兼容 OpenAI/Anthropic 的服务，也可以选择**自定义配置**并填写 API 端点。
+打开左下角**设置**，进入**模型与环境**，选择服务商并填写 **API Key**。已有可用 API Key 时，直接粘贴保存即可；如果使用自建或兼容 OpenAI/Anthropic 的服务，也可以选择**自定义配置**并填写 API 端点。已开通 CloakCloud 个人模型的用户，登录后也可以直接加载可用模型并查看实时额度。
 
-如果你使用 Claude，也可以在**设置 → 配置详情**里查看 Claude 登录状态，并选择订阅账号登录或 Console/API 登录。
+如果你使用 Claude、Gemini 或 Codex，也可以在**设置 → 配置详情**里查看 Agent 运行状态，并按提示完成安装或登录。
 
 | 服务商 | 获取 API Key |
 |--------|-------------|
@@ -206,7 +206,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片、聊天中的本地文件路径和外部文件链接都可更直接地预览、定位和打开。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以全屏查看预览内容，或把文件插入对话继续提问；团队云端工作区会展示本地新增、修改和冲突状态，并支持按权限上传本地文件。
 - 🎙️ **Zen模式与语音**：用更安静的界面整理问题、查看文件和进行语音输入；配置语音服务后，也可以体验 AI 语音播报。
-- 🤖 **模型选择与 Claude 登录**：根据任务需要选择模型和 Claude Code 努力程度；团队工作区会显示组织为当前工作区配置的可用模型，个人用户可以在**设置 → 模型与环境**里选择服务商、填写 API Key，或使用自定义 API 端点，也可以在配置详情中查看 Claude 登录状态并选择适合自己的登录方式。模型不可用时，Cloak 会提示重试或切换备用模型。
+- 🤖 **模型与 Agent 选择**：根据任务需要选择模型和 Claude、Gemini 或 Codex Agent；在配置详情中可查看运行状态、完成安装或登录。切换 Agent 后，Cloak 会尽量保留当前任务的上下文，方便继续完成同一件事。团队工作区会显示组织为当前工作区配置的可用模型；个人用户可以填写 API Key、使用自定义 API 端点，或在开通后使用 CloakCloud 个人模型并查看实时额度。模型或 Agent 不可用时，Cloak 会提示重试、处理配置或切换备用选项。
 - 💬 **微信接入预览**：扫码接入后，可以在微信里继续当前工作区的对话，查看当前会话、切换工作区、切换最近会话、新建会话和查找文件。
 - 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息；组织发放兑换码后，也可以按兑换码解锁可用技能。
 - 📌 **任务中心**：集中查看和安排需要稍后处理的任务；未登录时会先引导登录，避免任务上下文分散。
@@ -247,6 +247,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.41**
+
+- 新增 Gemini 和 Codex Agent 支持，可在 Cloak 内查看运行状态、完成安装或登录并开始对话。
+- 在 Claude、Gemini 和 Codex Agent 间切换时，会尽量保留当前任务上下文，继续处理更顺畅。
+- 新增 CloakCloud 个人模型与组织赞助账户入口，已开通的用户可查看可用模型和额度。
+
 **v0.1.40**
 
 - 团队工作区新增清晰的欢迎与状态引导，登录、加入组织和进入工作区时更容易知道下一步怎么做。
@@ -257,12 +263,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 优化 Skills 信息展示，查看较长的使用限制和说明更轻松。
 
-**v0.1.38**
-
-- 工作区会记住最近使用的会话，切换工作区后更容易继续原来的工作。
-- 外部文件链接支持在聊天中预览和打开，处理共享资料更方便。
-- 团队与个人工作区的模型选择更贴合当前可用范围，减少无关选项干扰。
-
 ---
 
 ## 常见问题 Q&A
@@ -271,7 +271,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 **Q：团队版开通后，成员还需要自己配置 API Key 吗？**
 
-A：通常不需要。组织可以统一配置**模型服务和可用模型**，成员登录后使用自己被授权的模型和工作区。
+A：通常不需要。组织可以统一配置**模型服务和可用模型**，成员登录后使用自己被授权的模型和工作区；已开通组织赞助账户时，也可以在设置中查看组织提供的模型和额度。
 
 **Q：团队版部署或开通应该联系谁？**
 
@@ -311,11 +311,15 @@ A：到“系统设置 → 隐私与安全性 → 完全磁盘访问权限”里
 
 **Q：模型服务由谁配置？**
 
-A：组织成员由组织统一配置**模型服务、成员权限和资源使用规则**。个人使用时，可以在设置里填写自己的服务商 API Key。
+A：组织成员由组织统一配置**模型服务、成员权限和资源使用规则**。个人使用时，可以在设置里填写自己的服务商 API Key；已开通 CloakCloud 个人模型的用户也可以登录后直接使用。
 
 **Q：个人用户一定要填写 API Key 吗？**
 
-A：不一定。使用 Claude 时，可以在**设置 → 配置详情**里查看登录状态，并按自己的账号类型选择订阅账号登录或 Console/API 登录。使用其他服务商时，通常需要填写对应的 API Key。
+A：不一定。使用 Claude 时，可以在**设置 → 配置详情**里查看登录状态，并按自己的账号类型选择订阅账号登录或 Console/API 登录；已开通个人模型的 CloakCloud 用户可登录后直接加载可用模型。使用其他服务商时，通常需要填写对应的 API Key。
+
+**Q：怎样使用 Gemini 或 Codex Agent？**
+
+A：进入**设置 → 配置详情**查看 Agent 运行状态，按提示完成安装或登录后，就可以在任务输入区选择 Gemini 或 Codex。切换 Agent 时，Cloak 会尽量带上当前任务的上下文。
 
 **Q：提示资源不足、模型不可用或请求失败怎么办？**
 

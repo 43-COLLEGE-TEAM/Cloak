@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.41
+
+发布日期：2026-07-20
+
+- 新增 Gemini 和 Codex Agent 支持，可在 Cloak 内查看运行状态、完成安装或登录并开始对话。
+- 在 Claude、Gemini 和 Codex Agent 间切换时，会尽量保留当前任务上下文，继续处理更顺畅。
+- 新增 CloakCloud 个人模型与组织赞助账户入口，已开通的用户可查看可用模型和额度。
+
 ## v0.1.40
 
 发布日期：2026-07-13
