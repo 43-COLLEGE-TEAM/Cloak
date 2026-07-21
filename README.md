@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.41-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.41)
+[![版本](https://img.shields.io/badge/版本-0.1.42-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.42)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.41**
+> 当前版本：**0.1.42**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.41)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.42)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.41/Cloak_0.1.41_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.42/Cloak_0.1.42_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.42/Cloak_0.1.42_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.42/Cloak_0.1.42_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.42/Cloak_0.1.42_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -247,6 +247,10 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.42**
+
+- 优化 CloakCloud 个人模型的购买入口，相关页面访问更稳定。
+
 **v0.1.41**
 
 - 新增 Gemini 和 Codex Agent 支持，可在 Cloak 内查看运行状态、完成安装或登录并开始对话。
@@ -258,10 +262,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 团队工作区新增清晰的欢迎与状态引导，登录、加入组织和进入工作区时更容易知道下一步怎么做。
 - 使用 Claude 处理任务时会显示当前进度和完成情况，长任务状态更容易跟进。
 - 聊天中的文件路径和外部文件链接预览更稳定，定位和打开文件更顺畅。
-
-**v0.1.39**
-
-- 优化 Skills 信息展示，查看较长的使用限制和说明更轻松。
 
 ---
 

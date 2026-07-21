@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.42
+
+发布日期：2026-07-21
+
+- 优化 CloakCloud 个人模型的购买入口，相关页面访问更稳定。
+
 ## v0.1.41
 
 发布日期：2026-07-20
