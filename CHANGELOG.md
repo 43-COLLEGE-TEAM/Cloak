@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.46
+
+发布日期：2026-07-24
+
+- 向 Claude 与 Codex Agent 发送图片时，会将所选图片直接带入对话，图片理解更可靠。
+- 优化图片附件的保存、预览和提交流程，添加图片后发送更稳定。
+- 切换对话或自动继续任务时，会更准确地保留原会话的附件和消息。
+
 ## v0.1.45
 
 发布日期：2026-07-23
