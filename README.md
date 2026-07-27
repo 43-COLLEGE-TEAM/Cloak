@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.46-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.46)
+[![版本](https://img.shields.io/badge/版本-0.1.47-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.47)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.46**
+> 当前版本：**0.1.47**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.46)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.47)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.46/Cloak_0.1.46_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.46/Cloak_0.1.46_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.46/Cloak_0.1.46_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.46/Cloak_0.1.46_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.47/Cloak_0.1.47_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.47/Cloak_0.1.47_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.47/Cloak_0.1.47_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.47/Cloak_0.1.47_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -247,6 +247,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.47**
+
+- 现在可以在**设置 → 更新日志**按版本查看本次及后续正式版的完整更新内容。
+- 升级后首次打开客户端时，会展示本次更新的核心内容；跨版本更新也会提示查看完整历史。
+- 修复聊天页用量数字可能被历史累计量放大的问题，现在会分别显示当前上下文和累计 API 用量。
+
 **v0.1.46**
 
 - 向 Claude 与 Codex Agent 发送图片时，会将所选图片直接带入对话，图片理解更可靠。
@@ -258,12 +264,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 个人工作区在文件夹移动、更名或更换后，可以重新关联新位置，已有对话更容易继续处理。
 - 欢迎界面会根据当前状态给出更清晰的引导，并展示最近使用的工作区，开始新任务更直接。
 - 优化个人模型与 Codex Agent 的连接、选择和任务切换，继续对话更稳定。
-
-**v0.1.44**
-
-- 团队群聊现在支持 @ 成员和智能体，分派讨论或补充信息更直接。
-- 改进 Codex Agent 的安装、修复和更新引导，运行状态与可操作提示更清晰。
-- 优化 Agent / 模型选择和切换时的体验，继续处理任务更稳定。
 
 ---
 
