@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.48
+
+发布日期：2026-07-27
+
+- 重新检查 Agent 运行环境时会立即显示检查状态，不再保留上一次的结果。
+- Codex Agent 初始化失败时会给出简明提示，方便继续安装或修复环境。
+- 修复 Codex 组件缺失或安装不完整时可能导致环境检查、会话初始化异常的问题，并改善 Windows 上相关提示的显示。
+
 ## v0.1.47
 
 发布日期：2026-07-27
