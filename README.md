@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.49-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.49)
+[![版本](https://img.shields.io/badge/版本-0.1.50-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.50)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.49**
+> 当前版本：**0.1.50**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.49)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.50)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.49/Cloak_0.1.49_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.49/Cloak_0.1.49_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.49/Cloak_0.1.49_x64.dmg) |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.49/Cloak_0.1.49_amd64.AppImage) |
+| Windows | 当前版本安装包暂未提供 |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.50/Cloak_0.1.50_aarch64.dmg) |
+| macOS（Intel 芯片）| 当前版本安装包暂未提供 |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.50/Cloak_0.1.50_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -247,6 +247,11 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.50**
+
+- 现在可以重设账号密码：登录前后均可通过已绑定手机号短信验证码重设，已登录时也可验证原密码。
+- 密码重设成功后会退出所有设备，并引导你使用新密码重新登录。
+
 **v0.1.49**
 
 - 现在可以在对话中让搭子创建 AI 会话任务或提醒。
@@ -258,18 +263,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 重新检查 Agent 运行环境时会立即显示检查状态，不再保留上一次的结果。
 - Codex Agent 初始化失败时会给出简明提示，方便继续安装或修复环境。
 - 修复 Codex 组件缺失或安装不完整时可能导致环境检查、会话初始化异常的问题，并改善 Windows 上相关提示的显示。
-
-**v0.1.47**
-
-- 现在可以在**设置 → 更新日志**按版本查看本次及后续正式版的完整更新内容。
-- 升级后首次打开客户端时，会展示本次更新的核心内容；跨版本更新也会提示查看完整历史。
-- 修复聊天页用量数字可能被历史累计量放大的问题，现在会分别显示当前上下文和累计 API 用量。
-
-**v0.1.46**
-
-- 向 Claude 与 Codex Agent 发送图片时，会将所选图片直接带入对话，图片理解更可靠。
-- 优化图片附件的保存、预览和提交流程，添加图片后发送更稳定。
-- 切换对话或自动继续任务时，会更准确地保留原会话的附件和消息。
 
 ---
 
