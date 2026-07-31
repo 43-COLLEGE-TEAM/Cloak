@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.50-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.50)
+[![版本](https://img.shields.io/badge/版本-0.1.51-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.51)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.50**
+> 当前版本：**0.1.51**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.50)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.51)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | 当前版本安装包暂未提供 |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.50/Cloak_0.1.50_aarch64.dmg) |
-| macOS（Intel 芯片）| 当前版本安装包暂未提供 |
-| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.50/Cloak_0.1.50_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.51/Cloak_0.1.51_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.51/Cloak_0.1.51_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.51/Cloak_0.1.51_x64.dmg) |
+| Linux 通用版 | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.51/Cloak_0.1.51_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -227,7 +227,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 📌 **任务中心**：可以在对话中让搭子创建 AI 会话任务或提醒，集中查看和安排需要稍后处理的内容；任务和提醒在重启后仍会保留，并可处理错过的计划。
 - 📦 **产物与交付中心**：AI 生成或交付文件后，界面会提示新产物；团队工作区还可以集中查看云端交付内容，方便及时打开、定位和继续处理。
 - 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤、工作区背景和任务完成提示音；云端工作区封面也可以使用组织提供的皮肤资源。
-- 🧩 **工作搭子**：支持桌面工作搭子、尺寸调节、资源缓存和显示管理；云端资源支持更多操作，让 AI 工作台更有陪伴感和品牌识别。
+- 🧩 **工作搭子**：Cappa 会在聊天页和 Zen 中陪伴你；桌面工作搭子也支持尺寸调节、资源缓存和显示管理，云端资源支持更多操作。
 - ⬆️ **应用更新提醒**：客户端会检查当前版本是否仍可继续使用；需要更新时会提示下载并重启完成更新。
 - 🪟 **窗口记忆**：Cloak 会记住主窗口大小，下次打开时更容易回到熟悉的工作界面。
 - 💌 **问题反馈**：在**设置 → 反馈**提交问题描述、截图、文件和联系方式。
@@ -262,6 +262,11 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.51**
+
+- Cloak 迎来新形象 Cappa，现在会在聊天页和 Zen 中陪伴你。
+- 修复 macOS 上从微信等应用拖入文件时，客户端可能意外退出的问题。
+
 **v0.1.50**
 
 - 现在可以重设账号密码：登录前后均可通过已绑定手机号短信验证码重设，已登录时也可验证原密码。
@@ -272,12 +277,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 现在可以在对话中让搭子创建 AI 会话任务或提醒。
 - 任务和提醒会在重启后保留，并可处理错过的计划。
 - 修复了一些问题，日常使用更稳定。
-
-**v0.1.48**
-
-- 重新检查 Agent 运行环境时会立即显示检查状态，不再保留上一次的结果。
-- Codex Agent 初始化失败时会给出简明提示，方便继续安装或修复环境。
-- 修复 Codex 组件缺失或安装不完整时可能导致环境检查、会话初始化异常的问题，并改善 Windows 上相关提示的显示。
 
 ---
 

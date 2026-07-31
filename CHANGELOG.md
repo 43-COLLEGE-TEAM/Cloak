@@ -2,6 +2,13 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.51
+
+发布日期：2026-07-30
+
+- Cloak 迎来新形象 Cappa，现在会在聊天页和 Zen 中陪伴你。
+- 修复 macOS 上从微信等应用拖入文件时，客户端可能意外退出的问题。
+
 ## v0.1.50
 
 发布日期：2026-07-29
