@@ -2,6 +2,13 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.54
+
+发布日期：2026-08-05
+
+- 修复了团队本地工作区有新进展时，客户端可能无法自动同步团队更新的问题。
+- 修复了 Windows 上 Codex Adapter 可能无法完成安装的问题。
+
 ## v0.1.53
 
 发布日期：2026-08-02
