@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.55
+
+发布日期：2026-08-06
+
+- 团队与个人工作区的 Skills 权限隔离更准确，重试时也不会混用权限。
+- 新增 API 提供商后，配置可正确保存并启用。
+- 聊天中的网页链接显示更完整、可正常阅读。
+
 ## v0.1.54
 
 发布日期：2026-08-05
