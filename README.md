@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.55-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.55)
+[![版本](https://img.shields.io/badge/版本-0.1.57-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.57)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.55**
+> 当前版本：**0.1.57**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.55)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.57)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.55/Cloak_0.1.55_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.55/Cloak_0.1.55_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.55/Cloak_0.1.55_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.55/Cloak_0.1.55_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -262,32 +262,21 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.57**
+
+- 重新整理了设置页面，账号与数据、配置详情和模型环境等内容更清晰，常用操作也更容易找到。
+- 修复了一些 bug。
+
+**v0.1.56**
+
+- 优化团队本地工作区的同步与对话衔接，切换或同步时内容显示更稳定。
+- 修复了 Windows 上 Codex Adapter 偶尔无法完成安装或启动的问题。
+
 **v0.1.55**
 
 - 团队与个人工作区的 Skills 权限隔离更准确，重试时也不会混用权限。
 - 新增 API 提供商后，配置可正确保存并启用。
 - 聊天中的网页链接显示更完整、可正常阅读。
-
-**v0.1.54**
-
-- 修复了团队本地工作区有新进展时，客户端可能无法自动同步团队更新的问题。
-- 修复了 Windows 上 Codex Adapter 可能无法完成安装的问题。
-
-**v0.1.53**
-
-- 团队工作区的交付中心现在可缓存、预览和另存为云端交付文件，也可在文件管理器或默认应用中打开，已缓存文件可像普通本地文件一样继续处理。
-- 团队群聊中现在可更清晰地看到各 AI 同事的工作状态和本轮进展，邀请成员时也能直接区分 AI 同事和成员。
-- 优化窗口恢复和错过重复任务的处理，日常使用更稳定。
-
-**v0.1.51**
-
-- Cloak 迎来新形象 Cappa，现在会在聊天页和 Zen 中陪伴你。
-- 修复 macOS 上从微信等应用拖入文件时，客户端可能意外退出的问题。
-
-**v0.1.50**
-
-- 现在可以重设账号密码：登录前后均可通过已绑定手机号短信验证码重设，已登录时也可验证原密码。
-- 密码重设成功后会退出所有设备，并引导你使用新密码重新登录。
 
 ---
 
