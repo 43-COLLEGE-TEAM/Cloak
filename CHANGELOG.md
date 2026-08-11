@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.58
+
+发布日期：2026-08-10
+
+- 修复了使用云购个人模型的 Codex 时，电脑未另外安装 Codex 会导致初始化失败的问题。
+- 修复了在 Claude Code、Codex 和 Gemini 之间切换后，如果首次发送失败，后续重试可能丢失对话衔接内容的问题。
+- 修复了 Windows 上启动或停止 Codex、Gemini 时可能闪现命令行窗口的问题。
+
 ## v0.1.57
 
 发布日期：2026-08-08

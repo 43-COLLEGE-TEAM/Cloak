@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.57-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.57)
+[![版本](https://img.shields.io/badge/版本-0.1.58-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.58)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.57**
+> 当前版本：**0.1.58**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.57)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.58)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.57/Cloak_0.1.57_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.58/Cloak_0.1.58_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.58/Cloak_0.1.58_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.58/Cloak_0.1.58_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.58/Cloak_0.1.58_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -261,6 +261,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 ## 更新记录
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
+
+**v0.1.58**
+
+- 修复了使用云购个人模型的 Codex 时，电脑未另外安装 Codex 会导致初始化失败的问题。
+- 修复了在 Claude Code、Codex 和 Gemini 之间切换后，如果首次发送失败，后续重试可能丢失对话衔接内容的问题。
+- 修复了 Windows 上启动或停止 Codex、Gemini 时可能闪现命令行窗口的问题。
 
 **v0.1.57**
 
