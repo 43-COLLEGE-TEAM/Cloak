@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.59
+
+发布日期：2026-08-11
+
+- 修复了在对话中连续创建多个任务时，任务创建可能不稳定的问题。
+
 ## v0.1.58
 
 发布日期：2026-08-10
