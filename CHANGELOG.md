@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.61
+
+发布日期：2026-08-14
+
+- 每个会话会记住各自的模型选择，切换会话后可继续使用对应配置。
+
 ## v0.1.59
 
 发布日期：2026-08-11
