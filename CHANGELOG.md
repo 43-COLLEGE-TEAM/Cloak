@@ -2,6 +2,13 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.62
+
+发布日期：2026-08-14
+
+- 现在可以根据需要调整操作权限。
+- 优化了许多体验细节，使用更顺畅。
+
 ## v0.1.61
 
 发布日期：2026-08-14
