@@ -4,6 +4,8 @@
 
 这里先管理 SkillHub 里对本组织开放的 Skill。
 
+当前 `Skill 管理` 只对组织所有者显示。普通组织管理员即使有其他模块权限，也不会看到这个菜单。
+
 ## SkillHub Skill
 
 页面顶部可以切换到 `SkillHub Skill`。
