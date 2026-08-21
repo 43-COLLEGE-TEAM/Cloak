@@ -323,6 +323,24 @@ A：Windows 选 Windows。Mac 查看“关于本机”的芯片信息：
 - **Intel**：选 Intel
 - **Linux**：不确定时先选通用版
 
+**Q：Windows 安装时提示“智能应用控制已阻止可能不安全的应用”怎么办？**
+
+A：这是 Windows 11 的智能应用控制在拦截系统暂时无法确认是否可信的安装包。如果安装包不是从本页下载，请先删除，并重新使用上方的官方下载链接。确认安装包来源后，可以按下面的步骤处理：
+
+1. 打开 Windows **设置 → 隐私和安全性 → Windows 安全中心**，点击**打开 Windows 安全中心**，再进入**应用和浏览器控制**。
+
+   <img src="docs/screenshots/windows-smart-app-control-security-center.webp" alt="在 Windows 设置中打开应用和浏览器控制" width="900" />
+
+2. 在“应用和浏览器控制”页面点击**智能应用控制设置**。
+
+   <img src="docs/screenshots/windows-smart-app-control-settings.webp" alt="进入智能应用控制设置" width="900" />
+
+3. 选择**关闭**，然后重新打开 Cloak 安装包。
+
+   <img src="docs/screenshots/windows-smart-app-control-off.webp" alt="关闭智能应用控制" width="900" />
+
+> 关闭智能应用控制会降低 Windows 对不受信任应用的防护。安装完成后，请返回该页面尝试重新开启；部分较旧的 Windows 11 版本可能无法直接重新开启，可以先完成 Windows 更新或联系 CLOAK 团队协助处理。安装前请确认文件来自本页的官方下载链接，无需关闭“病毒和威胁防护”。更多说明可查看 [Microsoft 智能应用控制常见问题](https://support.microsoft.com/zh-cn/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions)。
+
 **Q：Windows 打开后提示缺少基础组件怎么办？**
 
 A：按应用里的提示安装基础组件即可。也可以先安装 Git for Windows，安装时保持默认选项。
