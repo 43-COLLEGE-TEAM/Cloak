@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.64
+
+发布日期：2026-08-21
+
+- AI 正在处理时，可以编辑排队中的输入，或直接补充到当前任务。
+- 现在可在设置中按需开启或关闭 MCP 服务。
+- 修复了一些小问题，使用更稳定。
+
 ## v0.1.63
 
 发布日期：2026-08-18
