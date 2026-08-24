@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.65
+
+发布日期：2026-08-24
+
+- 修复了已安装技能无法被发现的问题，现在可在会话中看到并使用这些技能。
+
 ## v0.1.64
 
 发布日期：2026-08-21
