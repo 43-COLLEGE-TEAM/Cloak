@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.65-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.65)
+[![版本](https://img.shields.io/badge/版本-0.1.66-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.66)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.65**
+> 当前版本：**0.1.66**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.65)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.66)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.65/Cloak_0.1.65_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.65/Cloak_0.1.65_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.65/Cloak_0.1.65_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.65/Cloak_0.1.65_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -101,7 +101,7 @@ Linux 用户请使用通用版。
 #### 方式二：使用已配置的 API Key
 
 - **接入国内主流模型**：选择 Cloak 内置的服务商，只需填写 **API Key**。Base URL 和模型清单已有默认值；如有需要，也可以在高级设置中修改。
-- **接入第三方中转站**：选择**自定义配置**，填写中转站提供的 **Base URL、API Key 和模型清单**。
+- **接入第三方中转站**：选择**自定义配置**，可按服务选择 Anthropic 或 OpenAI 协议，并填写中转站提供的 **Base URL、API Key 和模型清单**。
 
 Cloak 当前内置以下常用服务商：
 
@@ -263,6 +263,10 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.66**
+
+- 现在可以添加 OpenAI 协议的 API 了。
+
 **v0.1.65**
 
 - 修复了已安装技能无法被发现的问题，现在可在会话中看到并使用这些技能。
@@ -271,12 +275,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - AI 正在处理时，可以编辑排队中的输入，或直接补充到当前任务。
 - 现在可在设置中按需开启或关闭 MCP 服务。
-- 修复了一些小问题，使用更稳定。
-
-**v0.1.63**
-
-- 模型现在会标注文本、图片、音频、视频等能力，选择时更直观。
-- 优化 API 接入配置，新增和配置模型更清晰。
 - 修复了一些小问题，使用更稳定。
 
 ---

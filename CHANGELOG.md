@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.66
+
+发布日期：2026-08-24
+
+- 现在可以添加 OpenAI 协议的 API 了。
+
 ## v0.1.65
 
 发布日期：2026-08-24
