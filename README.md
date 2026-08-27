@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.66-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.66)
+[![版本](https://img.shields.io/badge/版本-0.1.67-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.67)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.66**
+> 当前版本：**0.1.67**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.66)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.67)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.66/Cloak_0.1.66_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.67/Cloak_0.1.67_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.67/Cloak_0.1.67_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.67/Cloak_0.1.67_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.67/Cloak_0.1.67_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -221,7 +221,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片可以更可靠地发送给 Claude 与 Codex，聊天中的本地文件路径和外部文件链接也可更直接地预览、定位和打开。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以全屏查看预览内容，或把文件插入对话继续提问；团队云端工作区会展示本地新增、修改和冲突状态，并支持按权限上传本地文件。
 - 🎙️ **Zen模式与语音**：用更安静的界面整理问题、查看文件和进行语音输入；配置语音服务后，也可以体验 AI 语音播报。
-- 🤖 **模型与 Agent 选择**：根据任务需要选择模型和 Claude、Gemini 或 Codex Agent，也可按需要调整操作权限；模型列表会标注文本、图片、音频和视频等能力，选择更直观。每个会话会记住各自的模型选择，切换会话后可继续使用对应配置。在配置详情中可查看运行状态、完成安装或登录，Codex Agent 也会提供安装、修复和更新指引。重新检查 Agent 运行环境时会直接显示检查状态，无法初始化时会给出简明提示。切换 Agent 后，Cloak 会尽量保留当前任务的上下文，方便继续完成同一件事。团队工作区会显示组织为当前工作区配置的可用模型；个人用户可以使用云购个人模型、接入自己的 API Key，或登录 Claude 官方账号，新增和配置 API 模型的操作也更清晰。模型或 Agent 不可用时，Cloak 会提示重试、处理配置或切换备用选项。
+- 🤖 **模型与 Agent 选择**：根据任务需要选择模型和 Claude、Gemini 或 Codex Agent，也可按需要调整操作权限；模型列表会标注文本、图片、音频和视频等能力，选择更直观。每个会话会记住各自的模型选择，切换会话后可继续使用对应配置。在配置详情中可查看运行状态、完成安装或登录，Codex Agent 也会提供安装、修复和更新指引。重新检查 Agent 运行环境时会直接显示检查状态，无法初始化时会给出简明提示。Codex 启动遇到短暂中断时会自动重试；切换 Agent、模型或模型来源，以及重新打开旧会话后，也能更稳定地继续对话。团队工作区会显示组织为当前工作区配置的可用模型；个人用户可以使用云购个人模型、接入自己的 API Key，或登录 Claude 官方账号，新增和配置 API 模型的操作也更清晰。模型或 Agent 不可用时，Cloak 会提示重试、处理配置或切换备用选项。
 - 🔌 **MCP 服务管理**：可在**设置**中按需开启或关闭 MCP 服务。
 - 💬 **微信接入预览**：扫码接入后，可以在微信里继续当前工作区的对话，查看当前会话、切换工作区、切换最近会话、新建会话和查找文件。
 - 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息；已安装的 Skills 会在会话中显示，方便随时使用；组织发放兑换码后，也可以按兑换码解锁可用技能。
@@ -263,6 +263,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.67**
+
+- Codex 的启动流程更稳定，短暂中断时会自动重试，无法启动时也会给出更明确的处理提示。
+- 修复了切换 Agent、Codex 模型或模型来源，以及重新打开旧会话后，偶尔无法继续对话的问题。
+- 修复了 Codex 使用“自动”或切换模型后，部分思考强度设置可能导致消息无法发送的问题。
+
 **v0.1.66**
 
 - 现在可以添加 OpenAI 协议的 API 了。
@@ -270,12 +276,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 **v0.1.65**
 
 - 修复了已安装技能无法被发现的问题，现在可在会话中看到并使用这些技能。
-
-**v0.1.64**
-
-- AI 正在处理时，可以编辑排队中的输入，或直接补充到当前任务。
-- 现在可在设置中按需开启或关闭 MCP 服务。
-- 修复了一些小问题，使用更稳定。
 
 ---
 
