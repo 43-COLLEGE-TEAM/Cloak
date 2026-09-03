@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.69
+
+发布日期：2026-09-03
+
+- 发送消息的快捷键现在可以在 `Enter` 和 `Ctrl / Command + Enter` 之间选择，并在普通对话、Zen 模式和团队群聊中统一生效。
+- 可以在存储管理中调整 Claude Code 会话自动清理周期，长期会话不容易被过早清理。
+- Agent 选择与运行状态展示更加清晰，配置详情现在聚焦 Claude Code 和 Codex；同时优化了移动端发送反馈和模型状态等使用体验。
+
 ## v0.1.68
 
 发布日期：2026-08-31
