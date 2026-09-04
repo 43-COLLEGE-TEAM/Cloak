@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.69-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.69)
+[![版本](https://img.shields.io/badge/版本-0.1.70-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.70)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.69**
+> 当前版本：**0.1.70**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.69)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.70)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.69/Cloak_0.1.69_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.69/Cloak_0.1.69_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.69/Cloak_0.1.69_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.69/Cloak_0.1.69_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -264,6 +264,11 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.70**
+
+- 优化 Claude Code 子智能体的运行与任务衔接；请将 Claude Code 更新至 2.1.198 或更高版本。
+- 优化 Skills 加载机制，使用更稳定。
+
 **v0.1.69**
 
 - 发送消息的快捷键现在可以在 `Enter` 和 `Ctrl / Command + Enter` 之间选择，并在普通对话、Zen 模式和团队群聊中统一生效。
@@ -274,12 +279,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 文件面板新增一键收起整棵文件树，浏览大型项目更方便。
 - 修复会话消息、API 配置、团队工作区、移动端连接与余额显示等问题，整体使用更稳定。
-
-**v0.1.67**
-
-- Codex 的启动流程更稳定，短暂中断时会自动重试，无法启动时也会给出更明确的处理提示。
-- 修复了切换 Agent、Codex 模型或模型来源，以及重新打开旧会话后，偶尔无法继续对话的问题。
-- 修复了 Codex 使用“自动”或切换模型后，部分思考强度设置可能导致消息无法发送的问题。
 
 ---
 

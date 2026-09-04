@@ -2,6 +2,13 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.70
+
+发布日期：2026-09-04
+
+- 优化 Claude Code 子智能体的运行与任务衔接；请将 Claude Code 更新至 2.1.198 或更高版本。
+- 优化 Skills 加载机制，使用更稳定。
+
 ## v0.1.69
 
 发布日期：2026-09-03
