@@ -2,6 +2,13 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.71
+
+发布日期：2026-09-05
+
+- 设置中可选择调用子智能体无响应时的持续等待时间，长任务等待更灵活。
+- 修复 Skills 初始化与加载问题，使用更稳定。
+
 ## v0.1.70
 
 发布日期：2026-09-04

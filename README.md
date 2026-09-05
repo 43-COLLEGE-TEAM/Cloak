@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.70-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.70)
+[![版本](https://img.shields.io/badge/版本-0.1.71-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.71)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.70**
+> 当前版本：**0.1.71**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.70)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.71)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.70/Cloak_0.1.70_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.71/Cloak_0.1.71_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.71/Cloak_0.1.71_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.71/Cloak_0.1.71_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.71/Cloak_0.1.71_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -216,7 +216,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 个人工作区和团队工作区都可以使用这些通用能力；团队版会在此基础上增加**组织、权限、模型、资源使用和后台管理**。
 
-- 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续；支持任务进度的对话会显示当前步骤，长任务状态更容易跟进；AI 正在处理时，也可以编辑排队中的输入或直接补充到当前任务；发送快捷键可在 `Enter` 与 `Ctrl / Command + Enter` 之间选择；代码内容默认换行显示，阅读长代码更轻松。
+- 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续；支持任务进度的对话会显示当前步骤，长任务状态更容易跟进；设置中可选择调用子智能体无响应时的持续等待时间；AI 正在处理时，也可以编辑排队中的输入或直接补充到当前任务；发送快捷键可在 `Enter` 与 `Ctrl / Command + Enter` 之间选择；代码内容默认换行显示，阅读长代码更轻松。
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片可以更可靠地发送给 Claude 与 Codex，聊天中的本地文件路径和外部文件链接也可更直接地预览、定位和打开。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；团队云端工作区会展示本地新增、修改和冲突状态，并支持按权限上传本地文件。
 - 🎙️ **Zen模式与语音**：用更安静的界面整理问题、查看文件和进行语音输入；配置语音服务后，也可以体验 AI 语音播报。
@@ -264,6 +264,11 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.71**
+
+- 设置中可选择调用子智能体无响应时的持续等待时间，长任务等待更灵活。
+- 修复 Skills 初始化与加载问题，使用更稳定。
+
 **v0.1.70**
 
 - 优化 Claude Code 子智能体的运行与任务衔接；请将 Claude Code 更新至 2.1.198 或更高版本。
@@ -274,11 +279,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 发送消息的快捷键现在可以在 `Enter` 和 `Ctrl / Command + Enter` 之间选择，并在普通对话、Zen 模式和团队群聊中统一生效。
 - 可以在存储管理中调整 Claude Code 会话自动清理周期，长期会话不容易被过早清理。
 - Agent 选择与运行状态展示更加清晰，配置详情现在聚焦 Claude Code 和 Codex；同时优化了移动端发送反馈和模型状态等使用体验。
-
-**v0.1.68**
-
-- 文件面板新增一键收起整棵文件树，浏览大型项目更方便。
-- 修复会话消息、API 配置、团队工作区、移动端连接与余额显示等问题，整体使用更稳定。
 
 ---
 
