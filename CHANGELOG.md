@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.73
+
+发布日期：2026-09-06
+
+- 云购个人模型增加了更多可选系列。
+
 ## v0.1.71
 
 发布日期：2026-09-05
