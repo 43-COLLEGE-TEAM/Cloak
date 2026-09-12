@@ -2,6 +2,13 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.74
+
+发布日期：2026-09-11
+
+- macOS 新增可配置的系统避免休眠功能，减少长任务和移动端连接因闲置休眠而中断。
+- 优化更新提醒、移动端附件、Codex 启动及模型与工作区切换等体验，整体使用更稳定。
+
 ## v0.1.73
 
 发布日期：2026-09-06

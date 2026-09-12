@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.73-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.73)
+[![版本](https://img.shields.io/badge/版本-0.1.74-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.74)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.73**
+> 当前版本：**0.1.74**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.73)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.74)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.73/Cloak_0.1.73_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.73/Cloak_0.1.73_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.73/Cloak_0.1.73_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.73/Cloak_0.1.73_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.74/Cloak_0.1.74_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.74/Cloak_0.1.74_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.74/Cloak_0.1.74_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.74/Cloak_0.1.74_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -274,7 +274,8 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 📦 **产物与交付中心**：AI 生成或交付文件后，界面会提示新产物；团队工作区还可以集中查看云端交付内容，缓存后可预览、另存为、在文件管理器中定位或用默认应用打开，并像普通本地文件一样继续处理。
 - 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤、工作区背景和任务完成提示音；云端工作区封面也可以使用组织提供的皮肤资源。
 - 🧩 **工作搭子**：Cappa 会在聊天页和 Zen 中陪伴你；桌面工作搭子也支持尺寸调节、资源缓存和显示管理，云端资源支持更多操作。
-- ⬆️ **应用更新提醒**：客户端会检查当前版本是否仍可继续使用；需要更新时会提示下载并重启完成更新。
+- 🌙 **系统避免休眠（macOS）**：可在**设置 → 总览 → 通用设置**中选择关闭、持续开启或开启 24 小时，减少长任务和移动端连接因 Mac 闲置休眠而中断。
+- ⬆️ **应用更新提醒**：客户端会检查当前版本是否仍可继续使用；需要更新时会提示下载并重启完成更新，非强制更新也可以选择稍后处理。
 - 🪟 **窗口记忆**：Cloak 会记住主窗口大小，下次打开时更容易回到熟悉的工作界面。
 - 💌 **问题反馈**：在**设置 → 反馈**提交问题描述、截图、文件和联系方式。
 
@@ -308,6 +309,11 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.74**
+
+- macOS 新增可配置的系统避免休眠功能，减少长任务和移动端连接因闲置休眠而中断。
+- 优化更新提醒、移动端附件、Codex 启动及模型与工作区切换等体验，整体使用更稳定。
+
 **v0.1.73**
 
 - 云购个人模型增加了更多可选系列。
@@ -316,11 +322,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 设置中可选择调用子智能体无响应时的持续等待时间，长任务等待更灵活。
 - 修复 Skills 初始化与加载问题，使用更稳定。
-
-**v0.1.70**
-
-- 优化 Claude Code 子智能体的运行与任务衔接；请将 Claude Code 更新至 2.1.198 或更高版本。
-- 优化 Skills 加载机制，使用更稳定。
 
 ---
 
@@ -403,6 +404,10 @@ A：会。部分网络会限制访问**模型服务、GitHub、下载地址或�
 **Q：微信接入后可以做什么？**
 
 A：可以在微信里继续当前工作区的对话，也可以查看当前绑定的会话、切换工作区、切换最近会话、新建会话和查找文件。使用时需要保持 Cloak 客户端运行。
+
+**Q：Mac 休眠后长任务或移动端连接会中断，怎么办？**
+
+A：进入**设置 → 总览 → 通用设置**，把“系统避免休眠”设为**持续开启**或**开启 24 小时**。该功能只在 Cloak 运行期间生效，不会阻止合盖或手动休眠。
 
 **Q：Zen 模式语音需要怎么配置？**
 
