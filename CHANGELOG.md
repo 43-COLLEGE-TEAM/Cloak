@@ -2,6 +2,20 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.76
+
+发布日期：2026-09-16
+
+- 优化 Codex 的使用体验。
+- 优化 MCP 服务的使用体验。
+
+## v0.1.75
+
+发布日期：2026-09-16
+
+- MCP 服务现已支持 Claude Code 和 Codex，可分别控制开关。
+- 优化 Agent 配置、团队群聊和 Windows 工作区等使用体验。
+
 ## v0.1.74
 
 发布日期：2026-09-11
