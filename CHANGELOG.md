@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.77
+
+发布日期：2026-09-22
+
+- Computer Use 功能进入测试，可在设置中开启，让 AI 查看屏幕并操作电脑。
+- 新增系统信箱，集中查看和管理公告与通知。
+- 优化账号登录、模型切换和文件管理等使用体验。
+
 ## v0.1.76
 
 发布日期：2026-09-16

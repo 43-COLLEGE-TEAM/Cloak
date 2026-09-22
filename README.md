@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.76-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.76)
+[![版本](https://img.shields.io/badge/版本-0.1.77-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.77)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.76**
+> 当前版本：**0.1.77**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.76)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.77)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.76/Cloak_0.1.76_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.76/Cloak_0.1.76_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.76/Cloak_0.1.76_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.76/Cloak_0.1.76_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -160,13 +160,15 @@ Cloak 当前内置以下常用服务商：
 | MiniMax | [前往获取](https://platform.minimaxi.com/user-center/basic-information/interface-key) |
 | 通义千问 | [前往获取](https://bailian.console.aliyun.com/?apiKey=1) |
 
-#### 方式三：登录 Claude 官方账号
+#### 方式三：使用 Anthropic / OpenAI 账号登录
 
-适合已有 Claude 官方账号或订阅的用户。选择**Anthropic 账号登录**并点击登录，Cloak 会打开浏览器登录页。完成验证后，即可使用自己的 Claude 账号。
+在**方式三 · 账号登录**中选择 **Anthropic** 或 **OpenAI**，点击**登录**并按提示完成授权。Anthropic 使用 Claude 账号或订阅；OpenAI 使用 ChatGPT 账号，通过 Codex 执行任务。如果提示**准备运行环境**，先按页面引导完成准备，再返回登录；授权后可点击**刷新状态**确认是否可用。
 
 配置模型后，如果界面提示 Agent 尚未就绪，可以在**设置 → 配置详情**里查看 Claude Code 或 Codex Agent 的运行状态，并按提示完成安装或登录。
 
 需要接入 MCP 工具时，可在**设置 → 高级扩展**中添加服务，并分别为 Claude Code 和 Codex 开启。
+
+想让 AI 查看屏幕并操作电脑，可在**设置 → 总览 → 通用设置**中开启 **Computer Use（测试）**，按引导完成权限设置和验证，再新建 Claude Code 或 Codex 会话使用。目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac。
 
 ### 3. 开始对话
 
@@ -273,9 +275,11 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片可以更可靠地发送给 Claude 与 Codex，聊天中的本地文件路径和外部文件链接也可更直接地预览、定位和打开。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；团队本地工作区支持查看文件变化，并按权限将修改交给团队。
 - 🎙️ **Zen模式与语音**：用更安静的界面整理问题、查看文件和进行语音输入；配置语音服务后，也可以体验 AI 语音播报。
-- 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Claude 官方账号。模型配置会标注输入能力，每个会话也会记住当前选择。
+- 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Anthropic / OpenAI 账号。模型配置会标注输入能力，每个会话也会记住当前选择。
 - 🛠️ **Agent 选择**：可在 Claude Code 和 Codex 之间切换，并按需调整操作权限；在**设置 → 配置详情**中可查看运行状态，并按提示安装、登录、修复或更新。
 - 🔌 **MCP 服务管理**：可在**设置 → 高级扩展**中管理 MCP 服务，同一服务可供 Claude Code 和 Codex 使用，并分别控制开关。
+- 🖥️ **Computer Use（测试）**：在**设置 → 总览 → 通用设置**中开启并完成授权后，新建的 Claude Code 和 Codex 会话可以查看屏幕并操作电脑；目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac。
+- 📬 **系统信箱**：登录后可集中查看公告与通知，筛选未读消息、标记已读或清除消息。
 - 💬 **微信接入预览**：扫码接入后，可以在微信里继续当前工作区的对话，查看当前会话、切换工作区、切换最近会话、新建会话和查找文件。
 - 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息；已安装的 Skills 会在会话中显示，方便随时使用。
 - 📌 **任务中心**：可以在对话中让搭子创建 AI 会话任务或提醒，集中查看和安排需要稍后处理的内容；任务和提醒在重启后仍会保留，并可处理错过的计划。
@@ -318,6 +322,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.77**
+
+- Computer Use 功能进入测试，可在设置中开启，让 AI 查看屏幕并操作电脑。
+- 新增系统信箱，集中查看和管理公告与通知。
+- 优化账号登录、模型切换和文件管理等使用体验。
+
 **v0.1.76**
 
 - 优化 Codex 的使用体验。
@@ -327,11 +337,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - MCP 服务现已支持 Claude Code 和 Codex，可分别控制开关。
 - 优化 Agent 配置、团队群聊和 Windows 工作区等使用体验。
-
-**v0.1.74**
-
-- macOS 新增可配置的系统避免休眠功能，减少长任务和移动端连接因闲置休眠而中断。
-- 优化更新提醒、移动端附件、Codex 启动及模型与工作区切换等体验，整体使用更稳定。
 
 ---
 
@@ -381,11 +386,11 @@ A：到“系统设置 → 隐私与安全性 → 完全磁盘访问权限”里
 
 **Q：模型服务由谁配置？**
 
-A：组织成员由组织统一配置**模型服务、成员权限和资源使用规则**。个人用户可以使用云购个人模型、接入自己的 API Key，或登录自己的 Claude 官方账号。
+A：组织成员由组织统一配置**模型服务、成员权限和资源使用规则**。个人用户可以使用云购个人模型、接入自己的 API Key，或使用 Anthropic / OpenAI 账号登录。
 
 **Q：个人用户一定要填写 API Key 吗？**
 
-A：不一定。可使用云购个人模型；已有 Claude 官方账号时，也可以通过浏览器完成登录验证。只有选择方式二时，才需要填写相应的 API Key。
+A：不一定。可使用云购个人模型，也可以在**方式三 · 账号登录**中选择 Anthropic 或 OpenAI，按提示使用 Claude 或 ChatGPT 账号完成授权。只有选择方式二时，才需要填写相应的 API Key。
 
 **Q：怎样使用 Codex Agent？**
 
@@ -394,6 +399,10 @@ A：进入**设置 → 配置详情**查看 Agent 运行状态，按提示完成
 **Q：Claude Code 和 Codex 可以使用同一个 MCP 服务吗？**
 
 A：可以。在**设置 → 高级扩展**中管理 MCP 服务，两者共用服务配置，开关可分别控制。修改配置会影响后续连接；Codex 会在下一次空闲发送时应用更改。
+
+**Q：怎样开启 Computer Use？为什么开关不可用？**
+
+A：进入**设置 → 总览 → 通用设置**，开启 **Computer Use**，按引导完成权限设置和验证，再新建 Claude Code 或 Codex 会话使用。该功能仍在测试，目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac；Intel Mac 和 Linux 暂不支持。未完成授权或验证时，功能会保持关闭。
 
 **Q：怎样修改发送消息的快捷键？**
 
