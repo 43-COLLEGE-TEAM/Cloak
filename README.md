@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.77-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.77)
+[![版本](https://img.shields.io/badge/版本-0.1.79-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.79)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.77**
+> 当前版本：**0.1.79**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.77)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.79)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.77/Cloak_0.1.77_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -184,6 +184,8 @@ Cloak 当前内置以下常用服务商：
 
 想使用语音输入或语音播报，可以进入**设置 → 高级扩展**里的 Zen 模式配置，填写语音服务 API Key，保存后回到 Zen 模式使用。
 
+想在 Cloak 或其他应用中口述文字，可以进入**设置 → 语音输入**查看开通状态、开启功能并按提示完成授权。口述内容会整理成文字并尝试输入到当前光标处；你也可以在这里查看历史记录。此功能目前支持 Windows 和 macOS，需开通云购个人模型。
+
 ---
 
 ## 为什么团队需要 CLOAK 团队版
@@ -274,7 +276,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续；支持任务进度的对话会显示当前步骤，长任务状态更容易跟进；设置中可选择调用子智能体无响应时的持续等待时间；AI 正在处理时，也可以编辑排队中的输入或直接补充到当前任务；发送快捷键可在 `Enter` 与 `Ctrl / Command + Enter` 之间选择；代码内容默认换行显示，阅读长代码更轻松。
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片可以更可靠地发送给 Claude 与 Codex，聊天中的本地文件路径和外部文件链接也可更直接地预览、定位和打开。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；团队本地工作区支持查看文件变化，并按权限将修改交给团队。
-- 🎙️ **Zen模式与语音**：用更安静的界面整理问题、查看文件和进行语音输入；配置语音服务后，也可以体验 AI 语音播报。
+- 🎙️ **Zen 模式与语音**：在 Zen 模式中整理问题、查看文件、进行语音输入和体验 AI 语音播报；还可在**设置 → 语音输入**开启跨应用语音输入，将口述内容整理成文字，并查看历史记录。
 - 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Anthropic / OpenAI 账号。模型配置会标注输入能力，每个会话也会记住当前选择。
 - 🛠️ **Agent 选择**：可在 Claude Code 和 Codex 之间切换，并按需调整操作权限；在**设置 → 配置详情**中可查看运行状态，并按提示安装、登录、修复或更新。
 - 🔌 **MCP 服务管理**：可在**设置 → 高级扩展**中管理 MCP 服务，同一服务可供 Claude Code 和 Codex 使用，并分别控制开关。
@@ -322,21 +324,20 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.79**
+
+- 优化语音输入快捷键和悬浮提示，使用更稳定。
+
+**v0.1.78**
+
+- 新增跨应用语音输入，可在设置中开启，将口述内容整理成文字。
+- 优化 Computer Use 的设置和使用体验。
+
 **v0.1.77**
 
 - Computer Use 功能进入测试，可在设置中开启，让 AI 查看屏幕并操作电脑。
 - 新增系统信箱，集中查看和管理公告与通知。
 - 优化账号登录、模型切换和文件管理等使用体验。
-
-**v0.1.76**
-
-- 优化 Codex 的使用体验。
-- 优化 MCP 服务的使用体验。
-
-**v0.1.75**
-
-- MCP 服务现已支持 Claude Code 和 Codex，可分别控制开关。
-- 优化 Agent 配置、团队群聊和 Windows 工作区等使用体验。
 
 ---
 
@@ -435,6 +436,10 @@ A：进入**设置 → 总览 → 通用设置**，把“系统避免休眠”�
 **Q：Zen 模式语音需要怎么配置？**
 
 A：进入**设置 → 高级扩展**里的 Zen 模式配置，填写语音服务 API Key 后保存。配置完成后，可以在 Zen 模式里使用语音输入，也可以体验 AI 语音播报。
+
+**Q：怎样在其他应用中使用语音输入？**
+
+A：先开通云购个人模型，再进入**设置 → 语音输入**开启功能并按页面提示完成授权。按页面显示的快捷键开始口述，再按一次结束；整理后的文字会尝试输入到当前光标处。若输入未完成，可从提示卡片复制文字，或在语音输入历史记录中查找。
 
 ### 反馈与排查
 
