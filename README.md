@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.79-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.79)
+[![版本](https://img.shields.io/badge/版本-0.1.80-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.80)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.79**
+> 当前版本：**0.1.80**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.79)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.80)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.79/Cloak_0.1.79_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -180,6 +180,8 @@ Cloak 当前内置以下常用服务商：
 
 需要 AI 看文件时，把文件拖进对话框再提问。组织成员可以基于**团队资料和云端文件**发起对话。
 
+想生成图片或视频，可以在任意会话中直接描述想要的画面；完成后可在对话中查看结果。
+
 想在手机上跟进当前工作区，可以进入**设置 → 接入微信**生成二维码。扫码连接后，保持 Cloak 客户端运行，就可以在微信里继续对话、切换工作区或查找文件。
 
 想使用语音输入或语音播报，可以进入**设置 → 高级扩展**里的 Zen 模式配置，填写语音服务 API Key，保存后回到 Zen 模式使用。
@@ -275,6 +277,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续；支持任务进度的对话会显示当前步骤，长任务状态更容易跟进；设置中可选择调用子智能体无响应时的持续等待时间；AI 正在处理时，也可以编辑排队中的输入或直接补充到当前任务；发送快捷键可在 `Enter` 与 `Ctrl / Command + Enter` 之间选择；代码内容默认换行显示，阅读长代码更轻松。
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片可以更可靠地发送给 Claude 与 Codex，聊天中的本地文件路径和外部文件链接也可更直接地预览、定位和打开。
+- 🎨 **生成图片和视频**：在任意会话中描述想要的画面，生成后可直接在对话中查看。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；团队本地工作区支持查看文件变化，并按权限将修改交给团队。
 - 🎙️ **Zen 模式与语音**：在 Zen 模式中整理问题、查看文件、进行语音输入和体验 AI 语音播报；还可在**设置 → 语音输入**开启跨应用语音输入，将口述内容整理成文字，并查看历史记录。
 - 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Anthropic / OpenAI 账号。模型配置会标注输入能力，每个会话也会记住当前选择。
@@ -286,7 +289,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息；已安装的 Skills 会在会话中显示，方便随时使用。
 - 📌 **任务中心**：可以在对话中让搭子创建 AI 会话任务或提醒，集中查看和安排需要稍后处理的内容；任务和提醒在重启后仍会保留，并可处理错过的计划。
 - 🧹 **会话保留设置**：可在**设置 → 存储管理**中调整 Claude Code 会话自动清理周期，长期任务不容易被过早清理。
-- 📦 **产物与交付中心**：AI 生成或交付文件后，界面会提示新产物；团队工作区还可以集中查看云端交付内容，缓存后可预览、另存为、在文件管理器中定位或用默认应用打开，并像普通本地文件一样继续处理。
+- 📦 **产物与交付中心**：AI 生成或交付文件后，界面会提示新产物；不需要提醒时，可在**设置 → 总览 → 通用设置**中关闭交付物通知。团队工作区还可以集中查看云端交付内容，缓存后可预览、另存为、在文件管理器中定位或用默认应用打开，并像普通本地文件一样继续处理。
 - 🎨 **个性化工作台**：支持亮色 / 暗色、主题颜色、字体大小、中英文界面、项目卡片皮肤、工作区背景和任务完成提示音；云端工作区封面也可以使用组织提供的皮肤资源。
 - 🧩 **工作搭子**：Cappa 会在聊天页和 Zen 中陪伴你；桌面工作搭子也支持尺寸调节、资源缓存和显示管理，云端资源支持更多操作。
 - 🌙 **系统避免休眠（macOS）**：可在**设置 → 总览 → 通用设置**中选择关闭、持续开启或开启 24 小时，减少长任务和移动端连接因 Mac 闲置休眠而中断。
@@ -324,6 +327,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.80**
+
+- 在任意会话中生成图片和视频，并在对话中查看结果。
+- 优化语音输入后的文字整理体验。
+- 可在设置中关闭交付物通知，减少提醒打扰。
+
 **v0.1.79**
 
 - 优化语音输入快捷键和悬浮提示，使用更稳定。
@@ -332,12 +341,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 新增跨应用语音输入，可在设置中开启，将口述内容整理成文字。
 - 优化 Computer Use 的设置和使用体验。
-
-**v0.1.77**
-
-- Computer Use 功能进入测试，可在设置中开启，让 AI 查看屏幕并操作电脑。
-- 新增系统信箱，集中查看和管理公告与通知。
-- 优化账号登录、模型切换和文件管理等使用体验。
 
 ---
 
