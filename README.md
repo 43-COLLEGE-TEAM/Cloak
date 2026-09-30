@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.80-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.80)
+[![版本](https://img.shields.io/badge/版本-0.1.81-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.81)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.80**
+> 当前版本：**0.1.81**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.80)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.81)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.80/Cloak_0.1.80_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.81/Cloak_0.1.81_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.81/Cloak_0.1.81_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.81/Cloak_0.1.81_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.81/Cloak_0.1.81_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -180,7 +180,9 @@ Cloak 当前内置以下常用服务商：
 
 需要 AI 看文件时，把文件拖进对话框再提问。组织成员可以基于**团队资料和云端文件**发起对话。
 
-想生成图片或视频，可以在任意会话中直接描述想要的画面；完成后可在对话中查看结果。
+想生成图片或视频，可以在任意会话中直接描述想要的画面；生成图片时也可以提供多张参考图，完成后可在对话中查看结果。
+
+个人对话和团队群聊中的消息都可以复制；自己的消息还可以编辑后重新发送。
 
 想在手机上跟进当前工作区，可以进入**设置 → 接入微信**生成二维码。扫码连接后，保持 Cloak 客户端运行，就可以在微信里继续对话、切换工作区或查找文件。
 
@@ -228,7 +230,7 @@ Cloak 当前内置以下常用服务商：
 
 | 模块 | 团队版能解决什么 |
 |------|------------------|
-| 团队工作区与文件 | 本地工作区供成员处理项目文件，并按权限提交修改；云端工作区通过交付中心集中展示产物，支持预览、另存为和在本机继续处理。 |
+| 团队工作区与文件 | 本地工作区供成员处理项目文件，并按权限提交修改；重新关联文件夹和切换工作区后，文件与版本记录也能正常显示。云端工作区通过交付中心集中展示产物，支持预览、另存为和在本机继续处理。 |
 | 账号登录与成员同步 | 成员可使用飞书账号进入团队工作区；个人用户也可使用手机号验证码登录或注册，也可以在客户端里输入组织邀请码加入组织。组织成员、邮箱、部门等基础信息可从通讯录同步，减少重复维护。 |
 | 用户、分组、角色与资源配置 | 按成员、分组、角色和项目范围分配权限；为不同团队设置可用模型、访问范围和资源使用规则。 |
 | 模型统一管理 | 组织统一配置成员可用的模型范围；普通成员只看到自己被允许使用的模型；团队工作区会按组织配置加载模型。 |
@@ -277,7 +279,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续；支持任务进度的对话会显示当前步骤，长任务状态更容易跟进；设置中可选择调用子智能体无响应时的持续等待时间；AI 正在处理时，也可以编辑排队中的输入或直接补充到当前任务；发送快捷键可在 `Enter` 与 `Ctrl / Command + Enter` 之间选择；代码内容默认换行显示，阅读长代码更轻松。
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片可以更可靠地发送给 Claude 与 Codex，聊天中的本地文件路径和外部文件链接也可更直接地预览、定位和打开。
-- 🎨 **生成图片和视频**：在任意会话中描述想要的画面，生成后可直接在对话中查看。
+- 🎨 **生成图片和视频**：在任意会话中描述想要的画面，生成图片时可使用多张参考图，生成后可直接在对话中查看。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；团队本地工作区支持查看文件变化，并按权限将修改交给团队。
 - 🎙️ **Zen 模式与语音**：在 Zen 模式中整理问题、查看文件、进行语音输入和体验 AI 语音播报；还可在**设置 → 语音输入**开启跨应用语音输入，将口述内容整理成文字，并查看历史记录。
 - 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Anthropic / OpenAI 账号。模型配置会标注输入能力，每个会话也会记住当前选择。
@@ -327,6 +329,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.81**
+
+- 个人对话和团队群聊中的消息现在都可以复制，自己的消息也可以编辑后重新发送。
+- 优化团队本地工作区重新关联文件夹、切换工作区及查看版本记录的体验。
+- 生成图片时可以使用多张参考图。
+
 **v0.1.80**
 
 - 在任意会话中生成图片和视频，并在对话中查看结果。
@@ -336,11 +344,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 **v0.1.79**
 
 - 优化语音输入快捷键和悬浮提示，使用更稳定。
-
-**v0.1.78**
-
-- 新增跨应用语音输入，可在设置中开启，将口述内容整理成文字。
-- 优化 Computer Use 的设置和使用体验。
 
 ---
 
