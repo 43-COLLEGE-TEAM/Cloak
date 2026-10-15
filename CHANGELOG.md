@@ -2,6 +2,12 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.86
+
+发布日期：2026-10-15
+
+- 云购个人模型新增 Claude「1M 上下文」开关，可按需使用更长的对话上下文。
+
 ## v0.1.85
 
 发布日期：2026-10-14

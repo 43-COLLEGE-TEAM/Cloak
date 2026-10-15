@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.85-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.85)
+[![版本](https://img.shields.io/badge/版本-0.1.86-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.86)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.85**
+> 当前版本：**0.1.86**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.85)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.86)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.85/Cloak_0.1.85_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.85/Cloak_0.1.85_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.85/Cloak_0.1.85_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.85/Cloak_0.1.85_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -125,6 +125,8 @@ Linux 用户请使用通用版。
 1. 显示**个人模型可用**后，点击**方式一 · 云购个人模型**卡片。选中后卡片会高亮，并出现勾选标记。
 2. 选中方式一后，会自动查询**实时余额**。需要更新金额时，点击**刷新余额**；需要充值时，点击**充值**打开充值页面，完成后回到客户端刷新余额。
 3. 在同一页面向下找到**默认模型**，按系列选择要使用的模型。可选系列和模型以当前账号显示的列表为准。
+
+使用云购 Claude 模型时，可在模型列表旁按需开启或关闭 **1M 上下文**，更改会在下一次发送时生效，实际可用容量取决于所选通道。
 
 **第 4 步：回到个人工作区，开始对话**
 
@@ -284,7 +286,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 🎨 **生成图片和视频**：在任意会话中描述想要的画面，生成图片时可使用多张参考图，团队本地工作区也支持生成，完成后可直接在对话中查看。
 - 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；团队本地工作区支持查看文件变化，并按权限将修改交给团队。
 - 🎙️ **Zen 模式与语音**：在 Zen 模式中整理问题、查看文件、进行语音输入和体验 AI 语音播报；普通对话可点击输入框旁的麦克风口述内容；还可在**设置 → 语音输入**开启跨应用语音输入，将口述内容整理成文字，并查看历史记录。
-- 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Anthropic / OpenAI 账号。模型配置会标注输入能力，每个会话也会记住当前选择。
+- 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Anthropic / OpenAI 账号。模型配置会标注输入能力，每个会话也会记住当前选择；云购 Claude 模型可按需开关 **1M 上下文**。
 - 🛠️ **Agent 选择**：可在 Claude Code 和 Codex 之间切换，并按需调整操作权限；在**设置 → 配置详情**中可查看运行状态，并按提示安装、登录、修复或更新。
 - 🔌 **MCP 服务管理**：可在**设置 → 高级扩展**中管理 MCP 服务，同一服务可供 Claude Code 和 Codex 使用，并分别控制开关；对话中会按每轮回复集中展示 MCP 工具调用。
 - 🖥️ **Computer Use（测试）**：在**设置 → 总览 → 通用设置**中开启并完成授权后，新建的 Claude Code 和 Codex 会话可以查看屏幕并操作电脑；目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac。
@@ -332,6 +334,10 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.86**
+
+- 云购个人模型新增 Claude「1M 上下文」开关，可按需使用更长的对话上下文。
+
 **v0.1.85**
 
 - 对话中的 MCP 工具调用按每轮回复集中展示，查看处理过程更清楚；同时改善了图片结果的显示提示。
@@ -341,11 +347,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 普通对话的输入框新增语音入口，可以直接口述内容，确认文字后发送。
 - 优化 Windows 语音输入快捷键与权限引导，使用更顺畅。
-
-**v0.1.83**
-
-- 优化图片和视频生成结果的恢复体验，生成过程更稳定。
-- 改进模型切换、文件预览和手机端连接体验。
 
 ---
 
@@ -400,6 +401,10 @@ A：组织成员由组织统一配置**模型服务、成员权限和资源使�
 **Q：个人用户一定要填写 API Key 吗？**
 
 A：不一定。可使用云购个人模型，也可以在**方式三 · 账号登录**中选择 Anthropic 或 OpenAI，按提示使用 Claude 或 ChatGPT 账号完成授权。只有选择方式二时，才需要填写相应的 API Key。
+
+**Q：怎样调整云购 Claude 模型的上下文长度？**
+
+A：进入**设置 → 模型与环境**，选中**方式一 · 云购个人模型**，在 Claude 模型列表旁调整 **1M 上下文**开关。默认开启，使用 1M 上下文，并在约 800K 时自动整理对话内容以继续任务；关闭后使用 200K。更改在下一次发送时生效，实际可用容量取决于所选通道。
 
 **Q：怎样使用 Codex Agent？**
 
