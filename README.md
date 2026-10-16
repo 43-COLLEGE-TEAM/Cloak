@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.86-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.86)
+[![版本](https://img.shields.io/badge/版本-0.1.88-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.88)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.86**
+> 当前版本：**0.1.88**
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.86)
+> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.88)
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.86/Cloak_0.1.86_amd64.AppImage) |
+| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.88/Cloak_0.1.88_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.88/Cloak_0.1.88_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.88/Cloak_0.1.88_x64.dmg) |
+| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.88/Cloak_0.1.88_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -172,6 +172,8 @@ Cloak 当前内置以下常用服务商：
 
 想让 AI 查看屏幕并操作电脑，可在**设置 → 总览 → 通用设置**中开启 **Computer Use（测试）**，按引导完成权限设置和验证，再新建 Claude Code 或 Codex 会话使用。目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac。
 
+需要预览或简单编辑 Office 文件时，在**设置 → 总览 → 通用设置**中开启 **Office 预览与编辑**，再到**文件**面板打开 DOCX、XLSX 或 PPTX 文件。首次打开时会安装所需组件；Word 和 Excel 可简单编辑并保存或另存为，PowerPoint 仅支持预览。
+
 ### 3. 开始对话
 
 开始使用只需要三步：
@@ -284,7 +286,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 💬 **多个任务同时进行**：不同话题分开处理，互不打扰，随时切换回来继续；支持任务进度的对话会显示当前步骤，长任务状态更容易跟进；设置中可选择调用子智能体无响应时的持续等待时间；AI 正在处理时，也可以编辑排队中的输入或直接补充到当前任务；发送快捷键可在 `Enter` 与 `Ctrl / Command + Enter` 之间选择；代码内容默认换行显示，阅读长代码更轻松。
 - 📁 **直接处理文件和图片**：把文件或图片拖进对话窗口，让 AI 阅读、总结、改写、提取重点或分析内容；图片可以更可靠地发送给 Claude 与 Codex，聊天中的本地文件和文件夹链接、外部文件链接也可更直接地预览、定位和打开。
 - 🎨 **生成图片和视频**：在任意会话中描述想要的画面，生成图片时可使用多张参考图，团队本地工作区也支持生成，完成后可直接在对话中查看。
-- 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；团队本地工作区支持查看文件变化，并按权限将修改交给团队。
+- 🗂️ **文件管理**：在**文件**面板搜索、预览、打开文件，也可以一键收起整棵文件树、全屏查看预览内容，或把文件插入对话继续提问；支持 Word（DOCX）、Excel（XLSX）和 PowerPoint（PPTX）预览，Word 和 Excel 还可简单编辑并保存；团队本地工作区支持查看文件变化，并按权限将修改交给团队。
 - 🎙️ **Zen 模式与语音**：在 Zen 模式中整理问题、查看文件、进行语音输入和体验 AI 语音播报；普通对话可点击输入框旁的麦克风口述内容；还可在**设置 → 语音输入**开启跨应用语音输入，将口述内容整理成文字，并查看历史记录。
 - 🤖 **模型选择**：团队工作区使用组织配置的模型；个人用户可选择更多系列的云购模型、自有 API 或 Anthropic / OpenAI 账号。模型配置会标注输入能力，每个会话也会记住当前选择；云购 Claude 模型可按需开关 **1M 上下文**。
 - 🛠️ **Agent 选择**：可在 Claude Code 和 Codex 之间切换，并按需调整操作权限；在**设置 → 配置详情**中可查看运行状态，并按提示安装、登录、修复或更新。
@@ -334,6 +336,11 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.88**
+
+- 新增 Word（DOCX）、Excel（XLSX）和 PowerPoint（PPTX）文件预览，Word 和 Excel 还支持简单编辑。
+- 优化手机端团队工作区的显示与切换体验，修复部分使用问题。
+
 **v0.1.86**
 
 - 云购个人模型新增 Claude「1M 上下文」开关，可按需使用更长的对话上下文。
@@ -342,11 +349,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 对话中的 MCP 工具调用按每轮回复集中展示，查看处理过程更清楚；同时改善了图片结果的显示提示。
 - 设置中新增本地日志和远程调试入口，遇到问题时更方便查看记录并获得协助。
-
-**v0.1.84**
-
-- 普通对话的输入框新增语音入口，可以直接口述内容，确认文字后发送。
-- 优化 Windows 语音输入快捷键与权限引导，使用更顺畅。
 
 ---
 
@@ -391,6 +393,10 @@ A：按应用里的提示安装基础组件即可。也可以先安装 Git for W
 **Q：macOS 提示没有权限访问文件怎么办？**
 
 A：到“系统设置 → 隐私与安全性 → 完全磁盘访问权限”里给 Cloak 授权，然后重启应用再试。
+
+**Q：怎样在 Cloak 中预览或编辑 Office 文件？**
+
+A：在**设置 → 总览 → 通用设置**中开启 **Office 预览与编辑**，然后从**文件**面板打开 DOCX、XLSX 或 PPTX。Word 和 Excel 支持简单编辑，可保存到原文件或另存为副本；PowerPoint 仅支持预览。复杂版式可能变化，建议保留原件，需要完整编辑时可使用默认应用打开。
 
 ### 模型、API Key 与网络
 

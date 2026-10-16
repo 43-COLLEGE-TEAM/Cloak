@@ -2,6 +2,13 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.88
+
+发布日期：2026-10-16
+
+- 新增 Word（DOCX）、Excel（XLSX）和 PowerPoint（PPTX）文件预览，Word 和 Excel 还支持简单编辑。
+- 优化手机端团队工作区的显示与切换体验，修复部分使用问题。
+
 ## v0.1.86
 
 发布日期：2026-10-15
