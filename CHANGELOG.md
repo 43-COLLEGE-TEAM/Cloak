@@ -1,6 +1,16 @@
 # 更新记录
 
-完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
+安装包下载见 [README 下载区](README.md#下载)；历史发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
+
+## v0.1.90
+
+发布日期：2026-10-18
+
+- Browser Use 改用浏览器扩展连接 Chrome 和 Edge，可沿用已有标签页和登录状态。
+- 电脑和浏览器操作未完成时，提示更清楚，普通聊天仍可继续。
+- 修复部分电脑操作任务等待较久就提前中断的问题。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
 
 ## v0.1.89
 

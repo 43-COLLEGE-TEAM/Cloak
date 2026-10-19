@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.89-blue)](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.89)
+[![版本](https://img.shields.io/badge/版本-0.1.90-blue)](#下载)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,16 +44,16 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.89**
+> 当前版本：**0.1.90**（Windows、macOS M 系列）；macOS Intel 与 Linux AppImage 暂保留 **0.1.89**。
 >
-> 发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases/tag/v0.1.89)
+> 安装包通过 Cloak 官方云端发布；历史发布页：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.89/Cloak_0.1.89_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.89/Cloak_0.1.89_aarch64.dmg) |
-| macOS（Intel 芯片）| [下载安装包](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.89/Cloak_0.1.89_x64.dmg) |
-| Linux AppImage | [下载 AppImage](https://github.com/43-COLLEGE-TEAM/Cloak/releases/download/v0.1.89/Cloak_0.1.89_amd64.AppImage) |
+| Windows | [下载安装包（v0.1.90）](https://qn.oss.43consult.com/cloak/release/v0.1.90/Cloak_0.1.90_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包（v0.1.90）](https://qn.oss.43consult.com/cloak/release/v0.1.90/Cloak_0.1.90_aarch64.dmg) |
+| macOS（Intel 芯片）| [下载安装包（v0.1.89）](https://qn.oss.43consult.com/cloak/release/v0.1.89/Cloak_0.1.89_x64.dmg) |
+| Linux AppImage | [下载 AppImage（v0.1.89）](https://qn.oss.43consult.com/cloak/release/v0.1.89/Cloak_0.1.89_amd64.AppImage) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
@@ -172,7 +172,7 @@ Cloak 当前内置以下常用服务商：
 
 想让 AI 查看屏幕并操作电脑，可在**设置 → 总览 → 通用设置**中开启 **Computer Use（测试）**，按引导完成权限设置和验证，再新建 Claude Code 或 Codex 会话使用。目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac。
 
-想让 AI 处理网页任务，可在同一页面开启 **Browser Use**，使用当前 Chrome 的标签页和登录状态。需要 Chrome 144 或更新版本；先按页面提示打开 Chrome 远程调试设置并启用，首次连接时在 Chrome 中允许连接。
+想让 AI 处理网页任务，可在同一页面开启 **Browser Skill**，选择 Chrome 或 Edge，点击**去安装 Browser Skill 扩展**。安装后，在浏览器工具栏打开扩展并开启连接，即可沿用已有标签页和登录状态。
 
 需要预览或简单编辑 Office 文件时，在**设置 → 总览 → 通用设置**中开启 **Office 预览与编辑**，再到**文件**面板打开 DOCX、XLSX 或 PPTX 文件。首次打开时会安装所需组件；Word 和 Excel 可简单编辑并保存或另存为，PowerPoint 仅支持预览。
 
@@ -294,7 +294,7 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 - 🛠️ **Agent 选择**：可在 Claude Code 和 Codex 之间切换，并按需调整操作权限；在**设置 → 配置详情**中可查看运行状态，并按提示安装、登录、修复或更新。
 - 🔌 **MCP 服务管理**：可在**设置 → 高级扩展**中管理 MCP 服务，同一服务可供 Claude Code 和 Codex 使用，并分别控制开关；对话中会按每轮回复集中展示 MCP 工具调用。
 - 🖥️ **Computer Use（测试）**：在**设置 → 总览 → 通用设置**中开启并完成授权后，新建的 Claude Code 和 Codex 会话可以查看屏幕并操作电脑；目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac。
-- 🌐 **Browser Use**：在**设置 → 总览 → 通用设置**中开启，按提示完成 Chrome 设置后，让 AI 使用当前浏览器的标签页和登录状态处理网页任务。
+- 🌐 **Browser Use**：在**设置 → 总览 → 通用设置**中开启 **Browser Skill**，安装并连接 Chrome 或 Edge 扩展后，让 AI 沿用已有标签页和登录状态处理网页任务。
 - 📬 **系统信箱**：登录后可集中查看公告与通知，筛选未读消息、标记已读或清除消息。
 - 💬 **微信接入预览**：扫码接入后，可以在微信里继续当前工作区的对话，查看当前会话、切换工作区、切换最近会话、新建会话和查找文件；开启文件预览后，还可预览有权读取的本地工作区文件，并按需添加其他目录。
 - 🧠 **技能库**：在 Skills 面板中搜索、安装和更新可用 Skills，并查看技能作者信息；已安装的 Skills 会在会话中显示，面板还会显示已启用数量和总数，方便随时使用。
@@ -339,6 +339,12 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.90**
+
+- Browser Use 改用浏览器扩展连接 Chrome 和 Edge，可沿用已有标签页和登录状态。
+- 电脑和浏览器操作未完成时，提示更清楚，普通聊天仍可继续。
+- 修复部分电脑操作任务等待较久就提前中断的问题。
+
 **v0.1.89**
 
 - 优化 Computer Use 电脑操作能力，新增 Browser Use，可使用已登录的 Chrome 处理网页任务。
@@ -349,10 +355,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 新增 Word（DOCX）、Excel（XLSX）和 PowerPoint（PPTX）文件预览，Word 和 Excel 还支持简单编辑。
 - 优化手机端团队工作区的显示与切换体验，修复部分使用问题。
-
-**v0.1.86**
-
-- 云购个人模型新增 Claude「1M 上下文」开关，可按需使用更长的对话上下文。
 
 ---
 
@@ -428,9 +430,9 @@ A：可以。在**设置 → 高级扩展**中管理 MCP 服务，两者共用�
 
 A：进入**设置 → 总览 → 通用设置**，开启 **Computer Use**，按引导完成权限设置和验证，再新建 Claude Code 或 Codex 会话使用。该功能仍在测试，目前支持 Windows 和搭载 Apple 芯片、运行 macOS 14 及以上版本的 Mac；Intel Mac 和 Linux 暂不支持。未完成授权或验证时，功能会保持关闭。
 
-**Q：怎样让 AI 使用已登录的 Chrome 处理网页任务？**
+**Q：怎样让 AI 使用已登录的 Chrome 或 Edge 处理网页任务？**
 
-A：在**设置 → 总览 → 通用设置**中开启 **Browser Use**。需要 Chrome 144 或更新版本；点击页面中的入口打开 Chrome 远程调试设置并启用，首次执行任务时在 Chrome 中允许连接。连接后会使用当前 Chrome 的标签页和登录状态。
+A：在**设置 → 总览 → 通用设置**中开启 **Browser Skill**，选择 Chrome 或 Edge，点击**去安装 Browser Skill 扩展**。安装后，在浏览器工具栏打开扩展并开启连接，即可沿用已有标签页和登录状态。扩展商店无法打开时，可使用**离线安装扩展**，在扩展管理页面开启开发者模式，再按页面提示拖入**本文件夹**安装；从旧版升级后需重新开启 Browser Skill 并连接扩展。
 
 **Q：怎样修改发送消息的快捷键？**
 
