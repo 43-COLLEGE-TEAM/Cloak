@@ -2,6 +2,14 @@
 
 完整发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.89
+
+发布日期：2026-10-17
+
+- 优化 Computer Use 电脑操作能力，新增 Browser Use，可使用已登录的 Chrome 处理网页任务。
+- 个人模型充值可沿用客户端账号进入充值页面，返回客户端后自动刷新余额。
+- 优化图片生成、语音输入和 Windows 环境准备体验。
+
 ## v0.1.88
 
 发布日期：2026-10-16
