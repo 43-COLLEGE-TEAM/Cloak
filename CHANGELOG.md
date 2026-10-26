@@ -1,6 +1,28 @@
 # 更新记录
 
-安装包下载见 [README 下载区](README.md#下载)；历史发布页见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
+安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
+
+## v0.1.94
+
+发布日期：2026-10-24
+
+- Claude 现在随 Cloak 一起提供，可在「组件与更新」中统一查看、更新和修复，环境状态提示更清楚。
+- 减少相同组件的重复下载和安装，并自动清理不再使用的旧版本。
+- 修复组件更新后继续对话被中断，以及账号登录时切换 Claude / Codex 的错误提示。
+- 改善聊天内容显示和文件预览，修复部分文件链接无法打开及 Office 预览位置异常。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
+
+## v0.1.93
+
+发布日期：2026-10-22
+
+- 设置中新增「组件与更新」，可以查看组件版本、检查更新和修复异常。
+- 输入 / 即可查找和使用技能，名称匹配更灵活。
+- 聊天中的工具活动分组展示，长任务的执行过程更容易查看。
+- 优化文件预览，以及 Codex 任务停止和重启后继续会话的体验。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
 
 ## v0.1.90
 
