@@ -2,6 +2,34 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.100
+
+发布日期：2026-10-30
+
+- 重新整理设置页面，模型、工具、语音和系统选项更容易查找。
+- 定时任务支持绑定已有会话，并为个人工作区任务指定模型。
+- Zen 模式支持语音播报，可选择和试听音色。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
+
+## v0.1.99
+
+发布日期：2026-10-29
+
+- Windows 安装时一并准备对话所需内容，减少启动等待。
+- 改善启动与安装异常的处理，可展开并复制详细信息，旧组件清理失败也不会阻止对话。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
+
+## v0.1.97
+
+发布日期：2026-10-28
+
+- 启动准备会显示进度，完成后再开始对话；准备失败可直接重试。
+- Windows 安装遇到文件占用时，可处理后在原窗口重试。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
+
 ## v0.1.95
 
 发布日期：2026-10-27
