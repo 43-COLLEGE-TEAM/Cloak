@@ -1,0 +1,1627 @@
+{
+  "capturedOn": "2026-11-02",
+  "timezone": "Asia/Shanghai",
+  "sources": {
+    "windows-client-0.1.102": {
+      "version": "0.1.102",
+      "edition": "Windows 正式版",
+      "method": "已安装客户端原生 WebView 截图"
+    },
+    "admin-source": {
+      "commit": "8926d14b76ea46d8a53308ba932f4f7153f6f48d",
+      "method": "当前管理后台源码，通过浏览器截图",
+      "data": "项目内置演示数据；模型目录按当前接口契约提供示例响应。"
+    }
+  },
+  "privacy": "灰色遮挡覆盖真实余额、本机日志目录和真实成员信息；没有公开聊天正文。",
+  "reversibleDemo": "任务中心列表使用暂停状态的本地示例任务，截图后已删除；后台操作限于演示数据。",
+  "counts": {
+    "recaptured": 97,
+    "retainedExamples": 11,
+    "outsideScope": 7
+  },
+  "removed": [
+    "docs/manual/1-安装与配置/assets/onboarding-api-custom.png"
+  ],
+  "removalReason": "旧版引导中的自定义 API 页面已退出引导流程；现由常规设置中的 API 接入页说明。",
+  "images": [
+    {
+      "path": "docs/contact-wecom.png",
+      "status": "outside-scope",
+      "source": "branding",
+      "dimensions": [
+        450,
+        450
+      ],
+      "sha256": "4915c148bd11a6a4efe9107df9f2dadc33643539d54c4a652652a6741604a638",
+      "referencedBy": [
+        "README.md",
+        "README.md",
+        "README.md",
+        "README.md",
+        "docs/manual/2-客户端使用指南/09-常见问题排查.md"
+      ],
+      "note": "标识或联系二维码，不属于界面截图。"
+    },
+    {
+      "path": "docs/logo.png",
+      "status": "outside-scope",
+      "source": "branding",
+      "dimensions": [
+        512,
+        512
+      ],
+      "sha256": "1ce508068c2c5f29db30539efc5c49a1ed421bdc529ba46563fad0271a9fea52",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "标识或联系二维码，不属于界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/01-安装与启动-首次配置.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "504300746efdf2af8a9a641e008e454549ce3b1a61007e5775515c84566efba4",
+      "referencedBy": [],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/login-dialog-account.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        1580,
+        1190
+      ],
+      "sha256": "79c0f48263bfede83ab25d94f9f1a473fd99e763adb902d55865baffe30d6063",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/03-首次登录与工作区.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/login-dialog-register.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        1580,
+        1190
+      ],
+      "sha256": "310a0c4af366e95499b4895bf5b01ba7119ad75d8f6a39ffbdac8f5b1f843e92",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/03-首次登录与工作区.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/login-dialog-sms.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        1580,
+        1190
+      ],
+      "sha256": "351692669350697de05d0595efea29b2f2f3803398d0597c186e233ce2c872ee",
+      "referencedBy": [
+        "README.md",
+        "docs/manual/1-安装与配置/03-首次登录与工作区.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/onboarding-account.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "96dc05dfcb4036a85caa12cbc64e555ca5c05f75e5489a48baec471209166f09",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/02-初始引导.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/onboarding-api.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "3c6bebf25e8b846d5c4ae393cd152a019299657b8770f8addee6bb8a1bb7c5d3",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/02-初始引导.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/onboarding-cli-ready.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "8c372549698153ba687f30314380ecb8d45cc7d38f21ae65c0d0493f743911c7",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/02-初始引导.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/onboarding-finished.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/02-初始引导.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/onboarding-project-ready.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "5bb915b39e605e59ee63e55ce351388d3f8cb4af2c6dfd85ed37d6e4d3564506",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/02-初始引导.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/onboarding-project.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "1eefe9424112558b614b10b2cd74c05cd76ab88a907719bbf417df3cc0a76bf1",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/02-初始引导.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/onboarding-welcome.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "504300746efdf2af8a9a641e008e454549ce3b1a61007e5775515c84566efba4",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/01-安装与启动.md",
+        "docs/manual/1-安装与配置/02-初始引导.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-cli-environment.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "db057ec424d57311c4854b82b4bbf749a90b1724786fb8ff36b742dc9b5dd021",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/04-模型与环境配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-components.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "db057ec424d57311c4854b82b4bbf749a90b1724786fb8ff36b742dc9b5dd021",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/04-模型与环境配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-config-details-provider.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "705f0088ae3bf4dbf8a8bf47b6a222a05e3af20c24e039ef7a9f80421625ba2d",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/04-模型与环境配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-model-environment.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "21e01ba739f84634f7f24f4b3f20a6716616885d9e7270060ba461bffcb72912",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/04-模型与环境配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-provider-custom.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "71797dc6b8af73eb5e32b00656f05e58f0ec5e9c81129fa296f7b0c47d73bd06",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/04-模型与环境配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-provider-endpoint.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "681b4e017e0f0f83e44bf11976bcb42101e5617a46df87315ea8e74b376b489a",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/04-模型与环境配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-update-available.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "21e01ba739f84634f7f24f4b3f20a6716616885d9e7270060ba461bffcb72912",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/08-更新与版本.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-wechat-commands.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "baf5eb11c78c84f151b3dc2418a4c269e12c9fa5fae7871ad06c9eb9e3e176e7",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/05-微信接入.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-wechat-disconnected.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "f02c39eb63c9265192e10c064ff0952df783be75a84f9d7efd7c4a6cfb94e5da",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/05-微信接入.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-zen-voice-guide.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "03b152792bf2c4f56afd9f3be54694dd4a47b6876dcc26a61681237f9d081100",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/06-专注模式与语音.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/settings-zen-voice.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "03b152792bf2c4f56afd9f3be54694dd4a47b6876dcc26a61681237f9d081100",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/06-专注模式与语音.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/skills-hub.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "02821195a0c9fb6f66225f2ad74665f2fc535be5a04d406b3602a55ae7084f2d",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/07-技能库.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/skills-installed.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "4190ec6c553692b04e47d08afb88abaf8be1acecd0f66c0b52bb19af3c965867",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/07-技能库.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/website-download-section.png",
+      "status": "outside-scope",
+      "source": "existing-website",
+      "dimensions": [
+        1800,
+        956
+      ],
+      "sha256": "8c41ecf2e71b0f8fa9db14cf3ae5ccad40bc171638ab9a11799eefdd1c7d1b55",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/01-安装与启动.md"
+      ],
+      "note": "官网截图，本次未重拍。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/website-home-full-loaded.png",
+      "status": "outside-scope",
+      "source": "existing-website",
+      "dimensions": [
+        1800,
+        8009
+      ],
+      "sha256": "a0b78e374d11cae0d89b039646b83f560469805cce0c9f5a465960f693659223",
+      "referencedBy": [],
+      "note": "官网截图，本次未重拍。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/website-home-top.png",
+      "status": "outside-scope",
+      "source": "existing-website",
+      "dimensions": [
+        1800,
+        1100
+      ],
+      "sha256": "6a06fbd74815d12e296d16a10e07d0e259b5edadd111b73655a8d03c271a6938",
+      "referencedBy": [],
+      "note": "官网截图，本次未重拍。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/website-home.png",
+      "status": "outside-scope",
+      "source": "existing-website",
+      "dimensions": [
+        1800,
+        8009
+      ],
+      "sha256": "a0b78e374d11cae0d89b039646b83f560469805cce0c9f5a465960f693659223",
+      "referencedBy": [],
+      "note": "官网截图，本次未重拍。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/workspace-enterprise-empty.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        1580,
+        1190
+      ],
+      "sha256": "2dee19a21f28f0b65a6b4507c8bcd34665e63c0045ac2c8668417dede5ef4ffe",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/03-首次登录与工作区.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/1-安装与配置/assets/workspace-personal.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "docs/manual/1-安装与配置/03-首次登录与工作区.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/artifact-notification.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        492,
+        294
+      ],
+      "sha256": "2803dde299862d20112204392de0824fbbfbb5ff927f27ba663a6176fc88ac9d",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/06-交付与产物.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/delivery-center-panel.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        357,
+        964
+      ],
+      "sha256": "88cdd69d5c720e7bba6c15f4f3f7e9c4149cd80659dc02a2d93b31a4a546353e",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/06-交付与产物.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/delivery-center.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        357,
+        964
+      ],
+      "sha256": "88cdd69d5c720e7bba6c15f4f3f7e9c4149cd80659dc02a2d93b31a4a546353e",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/06-交付与产物.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/desktop-buddy-enable.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "5e28fc7f074210d110a1ac0e2c812272e8118b42f33b261a511f7abcf4895efa",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/07-桌面工作搭子.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/desktop-buddy-settings.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "5e28fc7f074210d110a1ac0e2c812272e8118b42f33b261a511f7abcf4895efa",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/07-桌面工作搭子.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/desktop-buddy-window.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        264,
+        264
+      ],
+      "sha256": "60bb638e01ce26ff8d6f239289e5a7de04855c75653db0042cfe910edfb0ebcf",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/07-桌面工作搭子.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/file-menu.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "f9331a19e42a1fbb2229bf4e9754922d61561f25ecb30f92e3c0e518e82002f9",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/02-文件与附件.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/files-panel.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/02-文件与附件.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/group-chat-create.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "a595b8fdcadeca0060613c460239af4aeac3a6bc0f07bb969b242271103253e7",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/04-团队群聊.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/group-chat-invite.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        361,
+        253
+      ],
+      "sha256": "abb3a572881624af4f6e2f426356a41557a0eabc39f8584fb5b415f7d10ade24",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/04-团队群聊.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/group-chat-main.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        809,
+        944
+      ],
+      "sha256": "6925480ba574eb97549db61bfcfefb04ebf6897f4dabebdd47c8d62169f30e24",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/03-团队工作区.md",
+        "docs/manual/2-客户端使用指南/04-团队群聊.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/group-chat-manage.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        1044,
+        432
+      ],
+      "sha256": "89ff7e83bf856da947ea2ae5094fb9849b01941350c56f3536a02f505472b550",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/04-团队群聊.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/main-interface.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/01-主界面与会话.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/session-conversation.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/01-主界面与会话.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/session-menu.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "f22fa5b0ea623939ae142c6c844a4371c4e26beaac4aa25b4f356eabadc71d15",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/01-主界面与会话.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/settings-center-feedback.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "94dd094f29db4f6fc694712cfc8a3c2461c7bbd5e861d2027069000131ba6a5f",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/08-设置中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/settings-center-general.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "21e01ba739f84634f7f24f4b3f20a6716616885d9e7270060ba461bffcb72912",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/08-设置中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/settings-center-model-environment.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "21e01ba739f84634f7f24f4b3f20a6716616885d9e7270060ba461bffcb72912",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/08-设置中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/settings-center-storage.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "4c706f0fdbe5205426fb186c85fea79b14cb398ca72622eb8232cdf5dc5509d4",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/08-设置中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/task-center-create.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "f350d5f1483d7b7389d382004dabc95b69175431ce57476fd400e2bdd8ae6bf3",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/05-任务中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/task-center-list.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "5620fe710bd407837250b9417895587f4a27f97ff4fa260cb56027340cff258a",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/05-任务中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/task-center-overview.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "c0ed4933ae220c656ada2d76f156d9618f99407a46a6d0a7039228ab6b277fdd",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/05-任务中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/task-center-schedule.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "f06b2bb9eabf3f8887ae142c670cb78b331f79fcfa7d31e518ec250a7882be53",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/05-任务中心.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/team-recent-workspace.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        242,
+        131
+      ],
+      "sha256": "429078be50108d3703872b2abcafb8920c932cbf1ebf4b78a18fcd22b5e8577f",
+      "referencedBy": [],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/team-workspace-permissions.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        451,
+        944
+      ],
+      "sha256": "7109486729785ee79a5343041a3c65a6b57723ab3c7c0be8c03cd5267f68cb8d",
+      "referencedBy": [],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/team-workspace-task.png",
+      "status": "retained-example",
+      "source": "existing-example",
+      "dimensions": [
+        1678,
+        944
+      ],
+      "sha256": "0190e3dc1b1ddee1edd10cb9fdc60c68bfb334400a1ca8c561640a94b713502f",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/03-团队工作区.md"
+      ],
+      "note": "保留既有示例图；本轮未重新截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/team-workspaces.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "d16006e4bd4584aaaa0c4b666e3a4128e6088918e7ed257772e028157ceb283e",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/03-团队工作区.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/troubleshooting-runtime-status.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "db057ec424d57311c4854b82b4bbf749a90b1724786fb8ff36b742dc9b5dd021",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/09-常见问题排查.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/2-客户端使用指南/assets/troubleshooting-status-overview.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "615fb882b0ad3b74d49a2c6e1bd7970bcfd49d1eb6132f6d3f0dc071cf467e53",
+      "referencedBy": [
+        "docs/manual/2-客户端使用指南/09-常见问题排查.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/admin-audit-manual.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "f9559252e6dc68e2671c63fe9c7183cc1550190e4ef43467c3cd0114fa73cf89",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/10-审计日志.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/agents-create-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "fe91a1257c6cc6c639a394201d90522b98e3551e9719b6370e376a1385ae6349",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/07-Agent管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/agents-delete-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "840f83b55f57a44847190276757cae8adcb299b03a661f68bd1a0f0c369b4e66",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/07-Agent管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/agents-edit-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "f73aa77da3533d6ad1ce9daf3eecd8fe3018f0c7493fb6a86c1dc51aa8421ce2",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/07-Agent管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/agents-list.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "18bfdf08eacd702da3ae99100b5a44c852c5b238b641ef3829de40ab55832cd1",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/07-Agent管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/dashboard-overview.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "d437810e2dc41f303a35c9baf68b0841b6324e0007b8c7cfefad898051d5fb99",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/02-数据看板.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/groups-basic-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "6125fa9ba25cf66e5ce873021d518d59c5b6ebb613ee94d4ab8e96d2aaeb4394",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/04-分组管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/groups-delete-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "1e106948699d09c81301d813774bfd33b7ffca265377ccad7118a97858543e59",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/04-分组管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/groups-list.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "442fa0f81cf892d16e1f6dc5c3e4757cc22256c895a0b8a673726eb19179df02",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/04-分组管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/groups-member-list.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "db14a94f1de53c0f9bd85e95bba8017d109ddb3f8e60125f17fc89e3c4fdb518",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/04-分组管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/groups-members-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "c6fe689abb831f1a31871646af1a36ec4e5c943419d3a1400d2711908d9c8f86",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/04-分组管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/login-page.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "d8f894ccbe43c5d6297c068c30b0b2fec2070f29ad12e4f1f8c373cb98331d2e",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/01-登录与授权.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/models-list.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "e44ce7d75e8b64a3329f27a75ab22999f1e6e0a3282c536740dcdabebcd28566",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/06-模型管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/models-trend.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "4d0b3561361e055d008e7599ced25953bdeba38b684a5f4e2d6b34a203b06198",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/06-模型管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/settings-danger-card.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "30ce0285c8ec1fab3ac85268687e92ce50c590f4711b6e0b72f2a38490b89857",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/11-系统配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/settings.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "4f263eee751528e5eb05bb62f2cf6245cc732332dddf3116bb6a42dc1a7f015a",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/11-系统配置.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/skills-local-empty.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "80c0bf6daeca5e985167d7ca87de03f12fffff7ab69a2b54718cc7d66375788a",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/08-Skill管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/skills-skillhub-list.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "2e5af423ab9b6d4edbbcb4e2121bb180c45b1844e8a58dde8a577e8676e6bf9b",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/08-Skill管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-add-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "b1614766796924813466ce9c5cc4bbaf394e8c62e0408c9bb90048025cecd8a3",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-detail-drawer.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "dbb3a65d3e217be9de06f195964a47eaed5839740dbdf9b89b2bd9cecd7a565d",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-disable-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "940112d8323b8f837f487b4fb57d2420a43304dcc976774d322de7af30801243",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-invite-modal.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "29886d5af2bb67f2b28f39e2664e76f325f50437583bdbe98d6f34689bdf8408",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-list.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "fb95cfc2e8b89df2357e55f7623bbddc85e21f7d88d5368888e98ebddd6e135c",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-quota-settings.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "ba89fe497e55030ff2e17459bfba53b1e9017bfe74b9bbc5d3558350bfc2436c",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-role-permissions.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "23404032fa7eb1d1f0dffb52979750d5ed93fef803a8611c4ab38bd4ca50064c",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/users-workspace-permissions.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "e9578fab96937da24174c4b1db6fa766cb01fb0dc289cf310f689ec607e8cf2b",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/03-人员管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-create-type.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "2151316aa8f7f4f49f1ffcc1da24da3cb6bc374a49349e9c8dcb83bcccda1ea2",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-disable.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "53f17a4c560efe77bd5316b5f2da6a5a6928c0968a8a4bd6697a385e2fafe717",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-edit-agents.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "51516d3c07c648696444a550dd217dd51541c252b13c87a3d9882b3ab7026cb0",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-edit-basic.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "aafe587b3228a0ae182dd0c3621121f01ae11ace3628e902b96680b0391e74da",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-edit-permissions.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "df7b3ec86d9c9007dea104be3281e42c3cd3269b83340c436e1ef9c2f2cd6c81",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-edit-skills.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "37a39323ce155bce4ec2cd41972528b1fa435637cc3e06aed949da0d0abd9f0e",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-file-history.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "4c4fcbbc06ec7076724383925dfa7a4fbd5c7be3becc32af6e0018251997e1dc",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-file-manager.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "75001fcbd45b78af9712c77fab4d712e7da0f8a81b2b2de48429d986e2195f7e",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-list.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "208dfa92acb4bac38528262cb0f0aef9a3f357f382521e0bbaa59e654cb11701",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-members.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1418,
+        902
+      ],
+      "sha256": "962c65403b876948c3b307aff1503471eafb607ffa821871c328ba3b72b1daa3",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-message-room-form.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "63ff6cce410faf10c3fdfe0e805369d23b10f84fb28ce210796af9370c94facc",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-message-rooms.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "08dec5a206040f2949b598758570ace86fcdd21f6e7e9cf21383cd990abc278c",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/manual/3-管理后台使用指南/assets/workspace-version-drawer.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "22af75e757bff3a273563d39a8d346204962949118d44d555830b74f884bd2bf",
+      "referencedBy": [
+        "docs/manual/3-管理后台使用指南/05-工作区管理.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/admin-audit.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "f9559252e6dc68e2671c63fe9c7183cc1550190e4ef43467c3cd0114fa73cf89",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/admin-dashboard.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "d437810e2dc41f303a35c9baf68b0841b6324e0007b8c7cfefad898051d5fb99",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/admin-users.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "fb95cfc2e8b89df2357e55f7623bbddc85e21f7d88d5368888e98ebddd6e135c",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/admin-workspaces.png",
+      "status": "recaptured",
+      "source": "admin-source",
+      "dimensions": [
+        1440,
+        1000
+      ],
+      "sha256": "208dfa92acb4bac38528262cb0f0aef9a3f357f382521e0bbaa59e654cb11701",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/cloud-model-selected.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "21e01ba739f84634f7f24f4b3f20a6716616885d9e7270060ba461bffcb72912",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/feedback.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        2025,
+        1445
+      ],
+      "sha256": "94dd094f29db4f6fc694712cfc8a3c2461c7bbd5e861d2027069000131ba6a5f",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/files.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/main.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/quick-start-20261026/my-space-files.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/quick-start-20261026/onboarding-my-space.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/quick-start-20261026/personal-model.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "21e01ba739f84634f7f24f4b3f20a6716616885d9e7270060ba461bffcb72912",
+      "referencedBy": [],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/quick-start-20261026/website-download.png",
+      "status": "outside-scope",
+      "source": "existing-website",
+      "dimensions": [
+        1800,
+        956
+      ],
+      "sha256": "8c41ecf2e71b0f8fa9db14cf3ae5ccad40bc171638ab9a11799eefdd1c7d1b55",
+      "referencedBy": [],
+      "note": "官网截图，本次未重拍。"
+    },
+    {
+      "path": "docs/screenshots/settings.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "21e01ba739f84634f7f24f4b3f20a6716616885d9e7270060ba461bffcb72912",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/welcome.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "99a7fa214b6e52a2fd1a209fe0284b3764fbfca69be9fb7800a3f44b050dd81c",
+      "referencedBy": [
+        "README.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    },
+    {
+      "path": "docs/screenshots/zen.png",
+      "status": "recaptured",
+      "source": "windows-client-0.1.102",
+      "dimensions": [
+        1350,
+        963
+      ],
+      "sha256": "74fdf94944905d59d6f8d15b4d883563ed6cc98da1c739f3a1f33fe9b1549973",
+      "referencedBy": [
+        "README.md",
+        "docs/manual/1-安装与配置/06-专注模式与语音.md"
+      ],
+      "note": "使用当前真实界面截图。"
+    }
+  ]
+}
