@@ -2,6 +2,23 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.102
+
+发布日期：2026-11-02
+
+- 优化安装与更新体验。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
+
+## v0.1.101
+
+发布日期：2026-11-01
+
+- 个人工作区可以直接推送给团队，邀请同事一起使用和编辑。
+- 优化图片操作和文件预览体验。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 与 Linux AppImage 暂保留 v0.1.89。
+
 ## v0.1.100
 
 发布日期：2026-10-30
