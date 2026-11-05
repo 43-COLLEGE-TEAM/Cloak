@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.102-blue)](#下载)
+[![版本](https://img.shields.io/badge/版本-0.1.103-blue)](#下载)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#)
 
@@ -44,14 +44,14 @@ Cloak 把组织知识、团队文件、模型服务和日常任务接入同一�
 
 ## 下载
 
-> 当前版本：**0.1.102**（Windows、macOS M 系列）；macOS Intel 与 Linux AppImage 暂保留 **0.1.89**。
+> 当前版本：**0.1.103**（Windows、macOS M 系列）；macOS Intel 与 Linux AppImage 暂保留 **0.1.89**。
 >
 > 安装包通过 Cloak 官方云端发布；GitHub 历史发布页（可能滞后于客户端更新）：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包（v0.1.102）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.102/Cloak_0.1.102_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包（v0.1.102）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.102/Cloak_0.1.102_aarch64.pkg) |
+| Windows | [下载安装包（v0.1.103）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.103/Cloak_0.1.103_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包（v0.1.103）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.103/Cloak_0.1.103_aarch64.dmg) |
 | macOS（Intel 芯片）| [下载安装包（v0.1.89）](https://qn.oss.43consult.com/cloak/release/v0.1.89/Cloak_0.1.89_x64.dmg) |
 | Linux AppImage | [下载 AppImage（v0.1.89）](https://qn.oss.43consult.com/cloak/release/v0.1.89/Cloak_0.1.89_amd64.AppImage) |
 
@@ -74,7 +74,7 @@ Linux 用户请使用通用版。
 ### 1. 安装客户端
 
 - **Windows**：双击下载好的安装文件，按提示完成安装。
-- **macOS（M 系列）**：双击下载的 PKG 安装包，按提示完成安装。
+- **macOS（M 系列）**：打开下载的 DMG 文件，把 Cloak 图标拖到“应用程序”文件夹。
 - **macOS（Intel）**：打开下载的 DMG 文件，把 Cloak 图标拖到“应用程序”文件夹。
 - **Linux**：优先使用通用版；如果是 AppImage，右键文件进入属性，允许作为程序执行后打开。
 
@@ -344,6 +344,10 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.103**
+
+- 优化安装、卸载与更新重启体验。
+
 **v0.1.102**
 
 - 优化安装与更新体验。
@@ -352,12 +356,6 @@ Cloak 的基础能力覆盖 **AI 对话、文件处理、项目资料协作、�
 
 - 个人工作区可以直接推送给团队，邀请同事一起使用和编辑。
 - 优化图片操作和文件预览体验。
-
-**v0.1.100**
-
-- 重新整理设置页面，模型、工具、语音和系统选项更容易查找。
-- 定时任务支持绑定已有会话，并为个人工作区任务指定模型。
-- Zen 模式支持语音播报，可选择和试听音色。
 
 ---
 
