@@ -2,6 +2,15 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.105
+
+发布日期：2026-11-06
+
+- 更新浏览器操作能力，优化网页任务体验。
+- 修复部分情况下 Office 文件预览不显示的问题。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
 ## v0.1.104
 
 发布日期：2026-11-05

@@ -6,7 +6,7 @@
 
 **面向个人与团队的 AI 工作台**
 
-[![版本](https://img.shields.io/badge/版本-0.1.104-blue)](#下载)
+[![版本](https://img.shields.io/badge/版本-0.1.105-blue)](#下载)
 [![平台](https://img.shields.io/badge/平台-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](#下载)
 
 Cloak 是面向个人与团队的桌面端 AI 工作台，支持对话、文件处理和团队工作区协作。
@@ -58,7 +58,7 @@ Cloak 是面向个人与团队的桌面端 AI 工作台，支持对话、文件�
 
 ## 下载
 
-> 当前版本：**0.1.104**（Windows、macOS M 系列）；**0.1.86**（macOS Intel）；**0.1.89**（Linux AppImage）。
+> 当前版本：**0.1.105**（Windows、macOS M 系列）；**0.1.86**（macOS Intel）；**0.1.89**（Linux AppImage）。
 
 首次安装只需选择与你电脑对应的安装包。已安装用户需要更新时，按客户端提示处理。
 
@@ -66,8 +66,8 @@ Cloak 是面向个人与团队的桌面端 AI 工作台，支持对话、文件�
 
 | 系统 | 下载 |
 |------|------|
-| Windows | [下载安装包（v0.1.104）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.104/Cloak_0.1.104_x64-setup.exe) |
-| macOS（M 系列芯片）| [下载安装包（v0.1.104）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.104/Cloak_0.1.104_aarch64.dmg) |
+| Windows | [下载安装包（v0.1.105）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.105/Cloak_0.1.105_x64-setup.exe) |
+| macOS（M 系列芯片）| [下载安装包（v0.1.105）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.105/Cloak_0.1.105_aarch64.dmg) |
 | macOS（Intel 芯片）| [下载安装包（v0.1.86）](https://qn.oss.43consult.com/cloak/release/v0.1.86/Cloak_0.1.86_x64.dmg) |
 | Linux AppImage | [下载 AppImage（v0.1.89）](https://qn.oss.43consult.com/cloak/release/v0.1.89/Cloak_0.1.89_amd64.AppImage) |
 
@@ -335,6 +335,11 @@ Claude Code 已随 Cloak 一起提供，启动时会自动准备运行环境。�
 
 这里只展示最近 3 次更新，完整记录见 [CHANGELOG.md](CHANGELOG.md)。
 
+**v0.1.105**
+
+- 更新浏览器操作能力，优化网页任务体验。
+- 修复部分情况下 Office 文件预览不显示的问题。
+
 **v0.1.104**
 
 - 新增配音功能，可先试听音色，再生成完整配音。
@@ -345,10 +350,6 @@ Claude Code 已随 Cloak 一起提供，启动时会自动准备运行环境。�
 **v0.1.103**
 
 - 优化安装、卸载与更新重启体验。
-
-**v0.1.102**
-
-- 优化安装与更新体验。
 
 ---
 
