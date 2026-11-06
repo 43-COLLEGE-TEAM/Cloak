@@ -2,6 +2,17 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.104
+
+发布日期：2026-11-05
+
+- 新增配音功能，可先试听音色，再生成完整配音。
+- Markdown 文件预览支持全文检索并跳转到匹配内容。
+- 优化语音输入的文字整理，让内容层次更清晰。
+- 新增最近会话入口，方便查看和继续任务。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
 ## v0.1.103
 
 发布日期：2026-11-02
