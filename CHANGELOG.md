@@ -2,6 +2,18 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.106
+
+发布日期：2026-11-09
+
+- 新增 GIF 动图生成，可在聊天中预览、下载或复制 GIF 文件。
+- 改善语音录制稳定性，支持在设置中选择和测试麦克风。
+- 修复工作区文件夹改名或移动后的重新关联，以及空工作区删除问题。
+- 点击文件搜索结果中的文件夹，即可展开并定位到所在位置。
+- 修复聊天中长文本和换行列表的显示问题。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
 ## v0.1.105
 
 发布日期：2026-11-06
