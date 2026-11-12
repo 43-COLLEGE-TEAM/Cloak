@@ -2,6 +2,25 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.108
+
+发布日期：2026-11-12
+
+- 新增个性化助手，可设置回答偏好，并在对话中调整 Cloak 外观或打开设置。
+- 新增飞书、企业微信和钉钉连接管理，可在聊天中快捷启用或暂停工具。
+- 修复并优化语音输入，文字整理失败时保留识别原文。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
+## v0.1.107
+
+发布日期：2026-11-11
+
+- 新增个性化助手，可设置回答偏好，并在对话中调整 Cloak 外观或打开设置。
+- 新增飞书、企业微信和钉钉连接管理，可在聊天中快捷启用或暂停工具。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
 ## v0.1.106
 
 发布日期：2026-11-09
