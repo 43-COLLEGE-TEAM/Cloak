@@ -2,6 +2,15 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.109
+
+发布日期：2026-11-12
+
+- 修复部分网络连接容易出错的问题。
+- 修复近期功能更新后出现的部分问题。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
 ## v0.1.108
 
 发布日期：2026-11-12
