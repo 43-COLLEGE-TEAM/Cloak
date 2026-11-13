@@ -58,11 +58,11 @@ Cloak 是面向个人与团队的桌面端 AI 工作台，支持对话、文件�
 
 ## 下载
 
-> 当前版本：**0.1.110**（Windows、macOS M 系列）；**0.1.86**（macOS Intel）；**0.1.89**（Linux AppImage）。
+> 当前桌面版本：**0.1.110**（Windows、macOS M 系列）；**0.1.86**（macOS Intel）；**0.1.89**（Linux AppImage）。Android 安装包见下方飞书附件。
 
 首次安装只需选择与你电脑对应的安装包。已安装用户需要更新时，按客户端提示处理。
 
-安装包通过 Cloak 官方云端发布；GitHub 历史发布页（可能滞后于客户端更新）：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
+桌面安装包通过 Cloak 官方云端发布；GitHub 历史发布页（可能滞后于客户端更新）：[43-COLLEGE-TEAM/Cloak](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
 | 系统 | 下载 |
 |------|------|
@@ -70,6 +70,7 @@ Cloak 是面向个人与团队的桌面端 AI 工作台，支持对话、文件�
 | macOS（M 系列芯片）| [下载安装包（v0.1.110）](https://7n.cdn.43cloak.cn/cloak/release/v0.1.110/Cloak_0.1.110_aarch64.dmg) |
 | macOS（Intel 芯片）| [下载安装包（v0.1.86）](https://qn.oss.43consult.com/cloak/release/v0.1.86/Cloak_0.1.86_x64.dmg) |
 | Linux AppImage | [下载 AppImage（v0.1.89）](https://qn.oss.43consult.com/cloak/release/v0.1.89/Cloak_0.1.89_amd64.AppImage) |
+| Android | [下载 APK（飞书附件）](https://vcnfaf5fobac.feishu.cn/wiki/RFNLwQ0NDivpR1kCSPkcE7tZnZf#doxcnOqednflcqstUJsrkaWtiOc) |
 
 不知道自己的 Mac 是哪种芯片？点击屏幕左上角的苹果图标，选择**关于本机**，查看“芯片”一栏。写着 M1 / M2 / M3 / M4 就选 M 系列，写着 Intel 就选 Intel。
 
