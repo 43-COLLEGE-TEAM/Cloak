@@ -2,6 +2,17 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.111
+
+发布日期：2026-11-17
+
+- 新增 Cloak AI 剪辑工作台，可通过对话制作视频，并在工作台中预览和调整。
+- 新增多模态生成价格显示，方便查看图片、视频与语音费用。
+- 更新 Browser Use 浏览器扩展，请同步更新浏览器端插件。
+- 优化会话记录、文件预览与语音输入体验。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
 ## v0.1.110
 
 发布日期：2026-11-13
