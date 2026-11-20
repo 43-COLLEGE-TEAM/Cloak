@@ -2,6 +2,15 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.112
+
+发布日期：2026-11-19
+
+- 优化工作区和设置界面的使用体验，改善 Windows 上 AI 剪辑工作台的启动。
+- 修复部分网络连接问题，模型服务和办公工具可共用网络连接设置。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
 ## v0.1.111
 
 发布日期：2026-11-17
