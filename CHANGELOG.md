@@ -2,6 +2,25 @@
 
 安装包下载见 [README 下载区](README.md#下载)；GitHub 历史发布页（可能滞后于客户端更新）见 [43-COLLEGE-TEAM/Cloak Releases](https://github.com/43-COLLEGE-TEAM/Cloak/releases)。
 
+## v0.1.114
+
+发布日期：2026-11-22
+
+- 使用 Cloak 模型服务时，可分别为 Claude Code 和 Codex 选择自动模式或指定默认子模型，也可以请 Cloak 管家在对话中更改。
+- 网络不稳时会显示对话重试进度和恢复提示，自动重试失败后可在聊天中手动重试。
+- 修复 Windows 上新会话发送首条消息时可能闪退的问题，并统一聊天与设置里显示的更新进度。
+
+本次更新面向 Windows 和 macOS M 系列；macOS Intel 保留 v0.1.86，Linux AppImage 保留 v0.1.89。
+
+## v0.1.113
+
+发布日期：2026-11-21
+
+- 使用 Cloak 模型服务时，可分别为 Claude Code 和 Codex 选择自动模式或指定默认子模型，也可以请 Cloak 管家在对话中更改。
+- 网络不稳时会显示对话重试进度和恢复提示，自动重试失败后可在聊天中手动重试。
+
+本次更新面向 macOS M 系列。
+
 ## v0.1.112
 
 发布日期：2026-11-19
